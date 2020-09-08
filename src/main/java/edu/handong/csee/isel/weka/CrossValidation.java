@@ -109,16 +109,19 @@ public class CrossValidation implements Runnable{
 			trainData.setClassIndex(trainData.numAttributes()-1);
 			testData.setClassIndex(testData.numAttributes()-1);
 
+			DataImbalance DI = new DataImbalance();
 			if (dataUnbalancingMode.equals("1")) {
 				// no handling unbalancing data problem
 			} else if (dataUnbalancingMode.equals("2")) {
-				trainData = spreadSubsampling(trainData);
+				trainData = DI.spreadSubsampling(trainData);
 			} else if (dataUnbalancingMode.equals("3")) {
-				trainData = smote(trainData);
+				trainData = DI.smote(trainData);
 			} else {
 				System.out.println("Check your Data unbalancing mode option!");
 				System.exit(-1);
 			}
+			
+			
 			
 			if(!tuningFlag.equals("false")) {
 				if(tuningMode.equals("false")) {
@@ -129,6 +132,12 @@ public class CrossValidation implements Runnable{
 					// parameter tuning (1. GridSearch)
 					GridSearch grid_search = new GridSearch();
 					grid_search.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
+					grid_search.setXMin(0.01);
+					grid_search.setXMax(0.5);
+					grid_search.setXStep(50);
+					grid_search.setYMin(1);
+					grid_search.setYMax(10);
+					grid_search.setYStep(10);
 					grid_search.buildClassifier(trainData);
 					eval_case = new Evaluation(trainData);
 					eval_case.evaluateModel(grid_search, testData);
@@ -266,22 +275,22 @@ public class CrossValidation implements Runnable{
 	}
 
 	
-	public static Instances spreadSubsampling(Instances trainData) throws Exception {
-		// training data undersampling
-		final SpreadSubsample spreadsubsample = new SpreadSubsample();
-		spreadsubsample.setInputFormat(trainData);
-		spreadsubsample.setDistributionSpread(1.0);
-		trainData = Filter.useFilter(trainData, spreadsubsample);
-		return trainData;
-	}
-	
-	public static Instances smote(Instances trainData) throws Exception {
-		// smote 
-		final SMOTE smote = new SMOTE();
-		smote.setInputFormat(trainData);
-		smote.setNearestNeighbors(1);
-		trainData = Filter.useFilter(trainData, smote);
-		return trainData;
-	}
+//	public static Instances spreadSubsampling(Instances trainData) throws Exception {
+//		// training data undersampling
+//		final SpreadSubsample spreadsubsample = new SpreadSubsample();
+//		spreadsubsample.setInputFormat(trainData);
+//		spreadsubsample.setDistributionSpread(1.0);
+//		trainData = Filter.useFilter(trainData, spreadsubsample);
+//		return trainData;
+//	}
+//	
+//	public static Instances smote(Instances trainData) throws Exception {
+//		// smote 
+//		final SMOTE smote = new SMOTE();
+//		smote.setInputFormat(trainData);
+//		smote.setNearestNeighbors(1);
+//		trainData = Filter.useFilter(trainData, smote);
+//		return trainData;
+//	}
 	
 }
