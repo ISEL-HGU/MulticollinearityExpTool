@@ -132,12 +132,30 @@ public class CrossValidation implements Runnable{
 					// parameter tuning (1. GridSearch)
 					GridSearch grid_search = new GridSearch();
 					grid_search.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
-					grid_search.setXMin(0.01);
+					
+//					grid_search.setXMin(0.01);
+//					grid_search.setXMax(0.5);
+//					grid_search.setXStep(50);
+//					grid_search.setYMin(1);
+//					grid_search.setYMax(10);
+//					grid_search.setYStep(10);
+					
+					grid_search.setXProperty("classifier.confidenceFactor");
+					grid_search.setXMin(0.05);
 					grid_search.setXMax(0.5);
-					grid_search.setXStep(50);
-					grid_search.setYMin(1);
+					grid_search.setXStep(0.05);
+					grid_search.setXBase(10);
+					grid_search.setXExpression("I");
+
+					grid_search.setYProperty("classifier.minNumObj");
+					grid_search.setYMin(2);
 					grid_search.setYMax(10);
-					grid_search.setYStep(10);
+					grid_search.setYStep(1);
+					grid_search.setYBase(10);
+					grid_search.setYExpression("I");
+
+					grid_search.setDebug(true);
+			        
 					grid_search.buildClassifier(trainData);
 					eval_case = new Evaluation(trainData);
 					eval_case.evaluateModel(grid_search, testData);
