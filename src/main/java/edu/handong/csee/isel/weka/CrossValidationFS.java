@@ -146,7 +146,7 @@ public class CrossValidationFS implements Runnable {
 
 			
 
-//			Classifier myModel = (Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null);
+			Classifier myModel = (Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null);
 			// feature selection -> using only trainData
 			AttributeSelection attsel = new AttributeSelection(); // package weka.attributeSelection!
 			BestFirst search = new BestFirst();
@@ -154,12 +154,12 @@ public class CrossValidationFS implements Runnable {
 				CfsSubsetEval eval = new CfsSubsetEval();
 				attsel.setEvaluator(eval);
 			} 
-//			else if (type.equals("3")) { // WFS
-//				WrapperSubsetEval wrapperEval = new WrapperSubsetEval();
-//				wrapperEval.setClassifier(myModel); // It is the same ML model as the prediction ML model
-//				wrapperEval.setEvaluationMeasure(new SelectedTag(EVAL_AUC, TAGS_EVALUATION));
-//				attsel.setEvaluator(wrapperEval);
-//			}
+			else if (type.equals("3")) { // WFS
+				WrapperSubsetEval wrapperEval = new WrapperSubsetEval();
+				wrapperEval.setClassifier(myModel); // It is the same ML model as the prediction ML model
+				wrapperEval.setEvaluationMeasure(new SelectedTag(EVAL_AUC, TAGS_EVALUATION));
+				attsel.setEvaluator(wrapperEval);
+			}
 
 			attsel.setSearch(search);
 			attsel.SelectAttributes(trainData);
@@ -197,41 +197,44 @@ public class CrossValidationFS implements Runnable {
 
 			if (type.equals("2"))
 				approach_name = "CFS-BestFirst";
-//			else if (type.equals("3"))
-//				approach_name = "WFS-BestFirst";
+			else if (type.equals("3"))
+				approach_name = "WFS-BestFirst";
 
 			
-			if(!tuningFlag.equals("false")) {
-				if(tuningMode.equals("false")) {
-					System.out.println("Check your tuning mode option!");
-					System.exit(-1);
-				}
-				else if(tuningMode.equals("1")) {
-					// parameter tuning (1. GridSearch)
-					GridSearch grid_search = new GridSearch();
-					grid_search.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
-					grid_search.buildClassifier(trainData);
-					eval_case = new Evaluation(trainData);
-					eval_case.evaluateModel(grid_search, testData);
-				}
-				else if(tuningMode.equals("2")) {
-					// parameter tuning (2. CVParameterSelection)
-					CVParameterSelection cv_ps = new CVParameterSelection();
-					cv_ps.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
-					cv_ps.buildClassifier(trainData);
-					eval_case = new Evaluation(trainData);
-					eval_case.evaluateModel(cv_ps, testData);
-				}
-
-			}
-			else { // tuningFlag.equals("false")
-				// no parameter tuning
-				final Classifier myModel = (Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null);
-				myModel.buildClassifier(trainData);
-				eval_case = new Evaluation(trainData);
-				eval_case.evaluateModel(myModel, testData);
-			}
+//			if(!tuningFlag.equals("false")) {
+//				if(tuningMode.equals("false")) {
+//					System.out.println("Check your tuning mode option!");
+//					System.exit(-1);
+//				}
+//				else if(tuningMode.equals("1")) {
+//					// parameter tuning (1. GridSearch)
+//					GridSearch grid_search = new GridSearch();
+//					grid_search.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
+//					grid_search.buildClassifier(trainData);
+//					eval_case = new Evaluation(trainData);
+//					eval_case.evaluateModel(grid_search, testData);
+//				}
+//				else if(tuningMode.equals("2")) {
+//					// parameter tuning (2. CVParameterSelection)
+//					CVParameterSelection cv_ps = new CVParameterSelection();
+//					cv_ps.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
+//					cv_ps.buildClassifier(trainData);
+//					eval_case = new Evaluation(trainData);
+//					eval_case.evaluateModel(cv_ps, testData);
+//				}
+//
+//			}
+//			else { // tuningFlag.equals("false")
+//				// no parameter tuning
+//				final Classifier myModel = (Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null);
+//				myModel.buildClassifier(trainData);
+//				eval_case = new Evaluation(trainData);
+//				eval_case.evaluateModel(myModel, testData);
+//			}
 			
+			myModel.buildClassifier(trainData);
+			eval_case = new Evaluation(trainData);
+			eval_case.evaluateModel(myModel, testData);
 			showSummary(eval_case, trainData, mlModel, csvPath, type, testPath, approach_name, multicollinearity_vif_10,
 					multicollinearity_vif_5, multicollinearity_vif_4, multicollinearity_vif_2_5);
 

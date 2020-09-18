@@ -139,7 +139,7 @@ public class CrossValidation implements Runnable{
 //					grid_search.setYMin(1);
 //					grid_search.setYMax(10);
 //					grid_search.setYStep(10);
-					
+					// got errer
 					grid_search.setEvaluation(new SelectedTag(GridSearch.EVALUATION_WAUC, GridSearch.TAGS_EVALUATION));
 					grid_search.setXProperty("classifier.confidenceFactor");
 					grid_search.setXMin(0.05);
