@@ -16,7 +16,8 @@ import weka.classifiers.bayes.NaiveBayes;
 
 import weka.classifiers.meta.CVParameterSelection; // parameter tuning
 import weka.classifiers.meta.GridSearch; // parameter tuning
-
+import weka.classifiers.meta.MultiSearch; // parameter tuning
+import weka.classifiers.meta.multisearch.DefaultSearch;
 import weka.core.Instances;
 import weka.core.SelectedTag;
 import weka.core.converters.ArffSaver;
@@ -168,6 +169,14 @@ public class CrossValidation implements Runnable{
 					cv_ps.buildClassifier(trainData);
 					eval_case = new Evaluation(trainData);
 					eval_case.evaluateModel(cv_ps, testData);
+				}
+				else if(tuningMode.equals("3")) {
+					MultiSearch multi_search = new MultiSearch();
+					multi_search.setAlgorithm(new DefaultSearch());
+					multi_search.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
+					multi_search.buildClassifier(trainData);
+					eval_case = new Evaluation(trainData);
+					eval_case.evaluateModel(multi_search, testData);
 				}
 
 			}

@@ -41,7 +41,7 @@ dependencies {
 	// https://jar-download.com/artifacts/nz.ac.waikato.cms.weka/gridSearch/1.0.12/source-code/weka/classifiers/meta/GridSearch.java
 	compile group: 'nz.ac.waikato.cms.weka', name: 'gridSearch', version: '1.0.12' //Thanks for using https://jar-download.com 
 	
-    
+    compile group: 'com.github.fracpete', name: 'multisearch-weka-package', version: '2017.10.1'
 }
 
 // In this section you declare where to find the dependencies of your project
