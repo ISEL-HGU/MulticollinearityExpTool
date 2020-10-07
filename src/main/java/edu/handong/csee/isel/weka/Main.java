@@ -26,6 +26,7 @@ public class Main {
 	static String beforeCrossValidationDataPath;
 	static String parameterTuningFlag = "false";
 	static String parameterTuningMode = "false";
+	static String multisearchEvaluationName = "AUC";
 	static boolean help = false;
 	
     public static void main(String[] args) throws Exception {
@@ -44,7 +45,7 @@ public class Main {
 	    		  if(tempFile.isFile()) {
 	    		    String tempFileName = tempFile.getName();
 	    		    sourcePath = sourcePath + tempFileName;
-	    		    ExecuteMultithread myExecuteMultithread = new ExecuteMultithread(sourcePath, dataUnbalancingMode, type, csvPath, mlModel, iter, fold, poolSize, parameterTuningFlag, parameterTuningMode);
+	    		    ExecuteMultithread myExecuteMultithread = new ExecuteMultithread(sourcePath, dataUnbalancingMode, type, csvPath, mlModel, iter, fold, poolSize, parameterTuningFlag, parameterTuningMode, multisearchEvaluationName);
 	    		    myExecuteMultithread.run();  
 	    		    sourcePath = copySourcePath;
 
@@ -133,9 +134,15 @@ public class Main {
 				.build());
 		
 		options.addOption(Option.builder("u").longOpt("tuning")
-				.desc("parameter tuning option. 1 is GridSearch or 2 is ")
+				.desc("parameter tuning option. 1 is GridSearch or 2 is CVParameterSelection or 3 is MultiSearch")
 				.hasArg()
 				.argName("parameter tuning option")
+				.build());
+		
+		options.addOption(Option.builder("e").longOpt("evaluation")
+				.desc("1 is AUC or 2 is Fmeasure or 3 is MCC or 4 is Precision or 5 is Recall")
+				.hasArg()
+				.argName("MultiSearch Evaluation option")
 				.build());
 		
 		return options;
@@ -165,6 +172,9 @@ public class Main {
 			}
 			if(cmd.hasOption("u")) {
 				parameterTuningMode = cmd.getOptionValue("u");
+			}
+			if(cmd.hasOption("e")) {
+				multisearchEvaluationName = cmd.getOptionValue("e");
 			}
 			
 

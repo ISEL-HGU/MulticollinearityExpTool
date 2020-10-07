@@ -55,11 +55,12 @@ public class ExecuteMultithread{
 	static String mlModel;
 	static String tuningFlag;
 	static String tuningMode;
+	static String multisearchEvaluationName;
 	String poolSize;
 	String iter;
 	String fold;
 
-	public ExecuteMultithread(String sourcePath, String dataUnbalancingMode, String type, String csvPath, String mlModel, String iter, String fold, String poolSize, String tuningFlag, String tuningMode) {
+	public ExecuteMultithread(String sourcePath, String dataUnbalancingMode, String type, String csvPath, String mlModel, String iter, String fold, String poolSize, String tuningFlag, String tuningMode, String multisearchEvaluationName) {
 		this.sourcePath = sourcePath;
 		this.dataUnbalancingMode = dataUnbalancingMode;
 		this.type = type;
@@ -70,6 +71,7 @@ public class ExecuteMultithread{
 		this.poolSize = poolSize;
 		this.tuningFlag = tuningFlag;
 		this.tuningMode	= tuningMode;
+		this.multisearchEvaluationName = multisearchEvaluationName;
 	}
 	
 	public void run() {
@@ -93,13 +95,13 @@ public class ExecuteMultithread{
 				}
 				if(type.equals("1") || type.equals("4")) { // unsupervised (1 is original, pac, and vif. 4 is vc and rr)
 					for(int idx = 0; idx < Integer.parseInt(fold); idx++) {
-			    		    Runnable CV = new CrossValidation(idx, filePathList, sourcePath, dataUnbalancingMode, type, csvPath, mlModel, tuningFlag, tuningMode);
+			    		    Runnable CV = new CrossValidation(idx, filePathList, sourcePath, dataUnbalancingMode, type, csvPath, mlModel, tuningFlag, tuningMode, multisearchEvaluationName);
 					    executor.execute(CV);
 					}
 				}
 				else if(type.equals("2") || type.equals("3")) { // supervised (2 is CFS, 3 is WFS)
 					for(int idx = 0; idx < Integer.parseInt(fold); idx++) {
-						Runnable CVFS = new CrossValidationFS(idx, filePathList, sourcePath, dataUnbalancingMode, type, csvPath, mlModel, tuningFlag, tuningMode);
+						Runnable CVFS = new CrossValidationFS(idx, filePathList, sourcePath, dataUnbalancingMode, type, csvPath, mlModel, tuningFlag, tuningMode, multisearchEvaluationName);
 		    		    		executor.execute(CVFS);
 					}
 				}

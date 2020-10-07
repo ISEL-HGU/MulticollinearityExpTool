@@ -17,6 +17,7 @@ import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.meta.CVParameterSelection; // parameter tuning
 import weka.classifiers.meta.GridSearch; // parameter tuning
 import weka.classifiers.meta.MultiSearch; // parameter tuning
+import weka.classifiers.meta.multisearch.DefaultEvaluationMetrics;
 import weka.classifiers.meta.multisearch.DefaultSearch;
 import weka.core.Instances;
 import weka.core.SelectedTag;
@@ -66,9 +67,10 @@ public class CrossValidation implements Runnable{
 	
 	String tuningFlag;
 	String tuningMode;
+	String multisearchEvaluationName;
 
 	public CrossValidation(final int idx, final ArrayList<String> filePathList, final String sourcePath, final String dataUnbalancingMode,
-			final String type, final String csvPath, final String mlModel, String tuningFlag, String tuningMode) {
+			final String type, final String csvPath, final String mlModel, String tuningFlag, String tuningMode, String multisearchEvaluationName) {
 		this.idx = idx;
 		this.filePathList = filePathList;
 		this.sourcePath = sourcePath;
@@ -78,6 +80,7 @@ public class CrossValidation implements Runnable{
 		this.mlModel = mlModel;
 		this.tuningFlag = tuningFlag;
 		this.tuningMode	= tuningMode;
+		this.multisearchEvaluationName = multisearchEvaluationName;
 	}
 
 	@Override
@@ -172,6 +175,23 @@ public class CrossValidation implements Runnable{
 				}
 				else if(tuningMode.equals("3")) {
 					MultiSearch multi_search = new MultiSearch();
+					SelectedTag tag = null;
+					if(multisearchEvaluationName.equals("AUC")) {
+						tag = new SelectedTag(DefaultEvaluationMetrics.EVALUATION_AUC, new DefaultEvaluationMetrics().getTags());
+					}
+					else if(multisearchEvaluationName.equals("Fmeasure")) {
+						tag = new SelectedTag(DefaultEvaluationMetrics.EVALUATION_FMEASURE, new DefaultEvaluationMetrics().getTags());
+					}
+					else if(multisearchEvaluationName.equals("MCC")) {
+						tag = new SelectedTag(DefaultEvaluationMetrics.EVALUATION_MATTHEWS_CC, new DefaultEvaluationMetrics().getTags());
+					}
+					else if(multisearchEvaluationName.equals("Precision")) {
+						tag = new SelectedTag(DefaultEvaluationMetrics.EVALUATION_PRECISION, new DefaultEvaluationMetrics().getTags());
+					}
+					else if(multisearchEvaluationName.equals("Recall")) {
+						tag = new SelectedTag(DefaultEvaluationMetrics.EVALUATION_RECALL, new DefaultEvaluationMetrics().getTags());
+					}
+					multi_search.setEvaluation(tag);
 					multi_search.setAlgorithm(new DefaultSearch());
 					multi_search.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
 					multi_search.buildClassifier(trainData);
@@ -194,7 +214,7 @@ public class CrossValidation implements Runnable{
 			if (type.equals("4")) {
 				approach_name = "VCRR";
 				showSummaryForPCAVIFVC(eval_case, trainData, mlModel, csvPath, type, testPath, approach_name);
-			} else { // type.equals("1") or type.equals("5") 
+			} else { // type.equals("1")  
 				// For checking multicollinearity using VIF with various threshold values when
 				// the case is original dataset
 				if (sourcePath.contains("_PCA")) {

@@ -86,7 +86,7 @@ public class CrossValidationFS implements Runnable {
 			new Tag(EVAL_AUPRC, "AUPRC (area under the precision-recall curve - discrete class only)") };
 
 	public CrossValidationFS(int idx, ArrayList<String> filePathList, String sourcePath, String dataUnbalancingMode,
-			String type, String csvPath, String mlModel, String tuningFlag, String tuningMode) {
+			String type, String csvPath, String mlModel, String tuningFlag, String tuningMode, String multisearchEvaluationName) {
 		this.idx = idx;
 		this.filePathList = filePathList;
 		this.sourcePath = sourcePath;
