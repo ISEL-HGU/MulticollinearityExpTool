@@ -137,13 +137,6 @@ public class CrossValidation implements Runnable{
 					GridSearch grid_search = new GridSearch();
 					grid_search.setClassifier((Classifier) weka.core.Utils.forName(Classifier.class, mlModel, null));
 					
-//					grid_search.setXMin(0.01);
-//					grid_search.setXMax(0.5);
-//					grid_search.setXStep(50);
-//					grid_search.setYMin(1);
-//					grid_search.setYMax(10);
-//					grid_search.setYStep(10);
-					// got errer
 					grid_search.setEvaluation(new SelectedTag(GridSearch.EVALUATION_WAUC, GridSearch.TAGS_EVALUATION));
 					grid_search.setXProperty("classifier.confidenceFactor");
 					grid_search.setXMin(0.05);
