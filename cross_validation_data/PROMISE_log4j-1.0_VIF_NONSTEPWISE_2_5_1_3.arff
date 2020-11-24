@@ -1,0 +1,25 @@
+@relation 'log4j-1.0_deleteColumns-weka.filters.unsupervised.attribute.Remove-R1-2,4-9,11,14,16,18-20'
+
+@attribute noc numeric
+@attribute lcom3 numeric
+@attribute dam numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute bug {1,0}
+
+@data
+0,0.25,0,0,0.25,0,0
+0,0.571429,0,1,0.416667,0,0
+0,0.666667,0,0,0.333333,0,0
+5,0.72,0,1,0.44,0,0
+0,0.666667,0,0,0.333333,0,0
+0,2,0,0,0.666667,0,0
+1,0.936508,0.555556,0,0.333333,0,0
+0,1,0,0,0.5,1,0
+0,0.611111,0,1,0.277778,0,0
+0,2,0,0,0,0,0
+0,0.714286,0,1,0.214286,0,1
+0,0.666667,0,0,0.090909,0,1
+2,0.649123,0.666667,2,0.2375,3,1
+0,0.871795,1,0,0.384615,1,1

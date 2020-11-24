@@ -1,0 +1,40 @@
+@relation poi-1.5_deleteColumns-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R6
+
+@attribute dit numeric
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute ce numeric
+@attribute dam numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute avg_cc numeric
+@attribute bug {1,0}
+
+@data
+2,0,5,2,2,1,0,0.228571,2,21,1.2,1
+2,0,141,3,4,0.833333,0,0.307018,6,12,0.8947,1
+1,0,36,12,0,0,0,0.555556,0,0,1,1
+1,0,1,0,6,0,0,0.5,0,13,0.5,1
+2,0,21,1,2,0,0,0.357143,2,2,0.8571,1
+1,0,27,2,4,1,2,0.5,0,20.5,1.5,1
+2,0,252,4,4,0.8,0,0.305556,6,14.041667,1.7917,1
+2,0,198,2,5,0.857143,0,0.361905,4,9.809524,1.5714,1
+2,0,43,2,4,0.5,0,0.418182,6,13,0.9091,1
+1,100,85,115,0,0.75,0,0.5,0,7.642857,0.7857,1
+2,0,66,2,4,0.666667,0,0.333333,6,12.230769,1.1538,1
+2,0,535,3,5,0.818182,0,0.225,5,10,1.6,1
+2,0,694,2,4,0.95,8,0.27305,6,12.6875,0.9375,1
+2,0,122,1,5,0.4,1,0.301587,6,14.190476,0.9048,1
+1,0,0,1,0,0,0,1,0,3,0,0
+1,0,1,1,4,0,0,0.5,0,40,0.5,0
+1,0,190,1,7,0,0,0.2,0,20.65,1.7,0
+1,0,4,4,3,1,0,0.333333,0,10,0.75,0
+1,0,9,4,3,1,0,0.522727,0,6.545455,0.6364,0
+1,2,0,2,3,1,2,0.458333,0,16.5,1.1667,0
+2,0,43,2,3,0,0,0.418182,6,9.454545,1,0
+1,0,28,5,2,0.166667,0,0.485714,0,32.36,2.84,0
+3,0,3,6,2,0,0,0.666667,1,8,0.3333,0
+2,0,43,2,3,0.5,0,0.418182,6,9.454545,1,0

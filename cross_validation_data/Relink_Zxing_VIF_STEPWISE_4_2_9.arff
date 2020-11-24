@@ -1,0 +1,53 @@
+@relation 'zxing1.6_golden-weka.filters.unsupervised.attribute.Remove-R1-2,54-weka.filters.unsupervised.attribute.Remove-R12,15,20,24,31-32,37-40,45-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R20-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R6'
+
+@attribute AvgEssential numeric
+@attribute AvgLineBlank numeric
+@attribute AvgLineCode numeric
+@attribute AvgLineComment numeric
+@attribute CountLineCodeDecl numeric
+@attribute CountLineComment numeric
+@attribute CountStmtDecl numeric
+@attribute MaxCyclomaticStrict numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+1,0,5,0,13,0,11,2,0,TRUE
+2,0,22,2,61,33,63,31,0.12,TRUE
+1,0,8,0,13,14,13,4,0.23,TRUE
+5,1,27,2,59,50,59,21,0.22,TRUE
+7,1,31,6,69,92,56,20,0.27,TRUE
+2,0,19,0,32,4,30,16,0.04,TRUE
+1,1,15,2,24,21,29,12,0.32,TRUE
+1,3,15,1,40,46,37,3,0.23,TRUE
+1,0,9,0,10,0,6,1,0,TRUE
+1,1,13,1,48,41,49,16,0.24,TRUE
+3,1,25,3,94,120,95,26,0.31,TRUE
+2,0,18,0,17,0,13,4,0,FALSE
+1,1,5,0,89,0,89,1,0,FALSE
+1,4,17,3,15,8,13,2,0.17,FALSE
+1,0,2,0,4,6,3,1,1,FALSE
+1,0,3,0,1,0,2,1,0,FALSE
+1,2,8,0,10,0,10,1,0,FALSE
+1,0,7,0,23,16,22,6,0.23,FALSE
+1,0,12,0,17,0,16,4,0,FALSE
+1,0,8,0,18,0,17,9,0,FALSE
+1,0,19,0,4,0,4,1,0,FALSE
+1,0,15,0,17,1,17,5,0.02,FALSE
+1,0,10,0,21,2,17,4,0.03,FALSE
+1,0,8,0,18,10,17,4,0.18,FALSE
+1,0,10,0,77,1,58,4,0.01,FALSE
+1,0,6,0,35,63,43,8,0.45,FALSE
+1,0,5,0,15,8,11,1,0.27,FALSE
+0,0,0,0,3,0,3,0,0,FALSE
+1,0,3,0,7,0,5,1,0,FALSE
+1,1,15,1,15,6,25,6,0.07,FALSE
+1,2,12,0,16,0,14,5,0,FALSE
+1,3,19,0,12,0,15,10,0,FALSE
+1,0,3,0,5,0,4,1,0,FALSE
+1,0,4,0,11,0,10,5,0,FALSE
+1,0,11,0,17,0,16,9,0,FALSE
+1,0,6,0,6,1,5,3,0.07,FALSE
+1,0,7,0,2,0,1,1,0,FALSE
+1,0,7,0,17,0,27,3,0,FALSE
+2,3,18,3,62,111,57,6,0.65,FALSE

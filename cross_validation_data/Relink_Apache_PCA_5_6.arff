@@ -1,0 +1,31 @@
+@relation 'Apache2.0_golden-weka.filters.unsupervised.attribute.Remove-R1-2,63-weka.filters.unsupervised.attribute.Remove-R12,15,18-20,23-24,28,35-38,46-47,51,53-54-weka.filters.unsupervised.attribute.Remove-R31-33-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.PrincipalComponents -R 0.95 -A 5-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1'
+
+@attribute -0.24SumCyclomatic-0.239CountStmtExe-0.239SumCyclomaticStrict-0.237CountStmt-0.234SumCyclomaticModified... numeric
+@attribute '0.325AvgCyclomatic+0.322AvgCyclomaticStrict+0.31 AvgCyclomaticModified+0.309AvgLineCode+0.303AvgLineBlank...' numeric
+@attribute -0.714RatioCommentToCode+0.397CountSemicolon+0.378AvgLine-0.303AvgLineComment-0.259CountLineComment... numeric
+@attribute 0.863AvgLine-0.447CountSemicolon+0.118CountLineComment+0.093AvgLineComment+0.093RatioCommentToCode... numeric
+@attribute '-0.728CountSemicolon-0.587RatioCommentToCode-0.32AvgLine+0.09 CountLineCodeDecl+0.066CountStmtDecl...' numeric
+@attribute 0.654AvgLineComment-0.315MaxCyclomatic+0.293AvgLineBlank-0.262MaxCyclomaticStrict-0.247MaxCyclomaticModified... numeric
+@attribute 0.393AvgLineComment-0.371AvgLineCode-0.349AvgCyclomaticModified+0.303MaxCyclomaticStrict+0.284MaxCyclomatic... numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+-0.188493,0.617417,-0.658493,0.110917,0.038965,1.247535,0.172705,FALSE
+3.978237,-0.642027,-6.405325,0.730001,-5.182141,-2.033648,-1.944039,FALSE
+0.419233,0.983751,-0.68755,0.108105,0.000881,0.590201,0.721868,FALSE
+-3.743492,-2.64953,0.145505,-0.061583,0.381904,0.401586,-0.657291,FALSE
+3.726314,-0.867002,0.61329,-0.183267,0.630674,-0.259427,0.793669,FALSE
+-0.97559,-0.143247,-0.675138,0.158165,0.088106,0.943617,-0.009579,FALSE
+2.098916,0.789541,0.351416,-0.255813,0.382601,0.479584,-0.145455,FALSE
+1.855683,-0.388754,0.34207,-0.198845,0.384728,0.208141,0.033057,FALSE
+2.751363,-0.315898,0.298836,-0.15669,0.328418,-0.263964,0.375083,FALSE
+1.107288,0.066547,-0.635116,0.015524,-0.191736,0.124835,-0.079933,TRUE
+-8.528065,-3.306338,-0.406531,0.249608,0.15876,0.109113,-0.116943,TRUE
+0.01958,0.26671,0.216963,-0.160894,0.317105,0.040451,0.009538,TRUE
+1.073339,-0.195305,0.341891,-0.162944,0.403406,0.164527,-0.065986,TRUE
+0.787559,-1.453335,0.092222,-0.050921,0.374094,0.302787,-0.024084,TRUE
+3.316068,-1.155881,0.553566,-0.150703,0.677406,-0.150345,0.819887,TRUE
+3.037892,-0.47799,0.065971,-0.129092,0.121065,-0.376998,0.184476,TRUE
+2.01093,-0.219219,-0.243398,-0.032366,0.012226,-0.039839,0.201184,TRUE
+3.102774,-0.236088,-0.472106,-0.04754,-0.229885,-0.197733,0.134375,TRUE
+-14.11121,-6.287388,-0.888598,0.627872,0.236676,1.139014,-0.781812,TRUE

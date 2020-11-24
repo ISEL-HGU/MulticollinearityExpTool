@@ -1,0 +1,50 @@
+@relation ivy-2.0_deleteColumns-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R4
+
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute lcom3 numeric
+@attribute moa numeric
+@attribute mfa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute max_cc numeric
+@attribute bug {1,0}
+
+@data
+0,3,19,2,0,0,0.583333,0,0,1,0
+7,44,23,0.555556,1,0,0.201923,1,12,5,0
+2,1,2,0,0,0,0.666667,0,4,1,0
+0,1,2,2,0,0,0.5,0,23.5,4,0
+0,0,10,0.4,1,0,0.444444,0,6,1,0
+0,1,11,2,0,0,0.75,0,0,1,0
+0,6,3,2,0,0,0.416667,0,24,3,0
+0,2,3,0.625,1,0,0.533333,0,16.4,2,0
+0,110,2,0.09375,1,0,0.344538,0,8.588235,2,0
+2,3,2,2,0,0,0.5,0,16.666667,2,0
+0,0,8,2,0,0,1,0,0,1,0
+0,4,1,0,0,0,0.525,0,30.2,4,0
+0,316,4,0.853571,1,0.517241,0.206897,2,22,8,0
+0,25,1,0.805556,0,0,0.7,0,3.9,1,0
+0,0,1,0,0,0.983871,0.666667,1,47.5,3,0
+0,22,9,0.5,1,0.3,0.25,1,12.888889,2,0
+0,0,1,0.333333,2,0,0.5,0,7.25,3,0
+0,2213,44,0.901947,12,0,0.055223,0,13.864865,11,0
+0,0,11,0,0,0,0.4,0,13.8,2,0
+1,79,1,0.807692,0,0,0.285714,0,5.5,2,0
+0,516,0,0.916667,0,0.650485,0.169533,3,29.162162,5,0
+0,8,1,0.875,0,0.982558,0.625,2,13.8,3,0
+0,15,26,2,0,0,0.541667,0,0,1,0
+0,0,3,0.333333,0,0,0.5,0,17,7,0
+3,29,3,0.777778,1,0,0.65,0,5.3,2,0
+0,3,1,2,0,0.8,0.833333,2,4,1,0
+0,20,3,1.012539,1,0.5,0.393939,1,26.583333,6,0
+0,78,1,2,0,0.945274,0.174825,7,31.307692,4,0
+0,0,1,0.714286,2,0.752941,0.162879,3,14.863636,3,0
+0,3,1,0.666667,0,0.881579,0.65,1,19.3,2,0
+0,16,2,0.666667,1,0.740741,0.46875,1,40.625,2,0
+0,55,35,2,0,0,0.409091,0,0,1,1
+0,236,1,0.767857,0,0.695652,0.143236,4,24.137931,5,1
+0,374,26,1.012346,0,0,0.226337,0,31.642857,23,1
+0,57,0,0.821429,0,0.82716,0.306667,2,26,5,1

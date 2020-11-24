@@ -1,0 +1,17 @@
+@relation 'openintents2703_golden-weka.filters.unsupervised.attribute.Remove-R1-2,14,17,26,33-34,39-42,47,54-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.PrincipalComponents -R 0.95 -A 5-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1'
+
+@attribute -0.236CountStmtExe-0.236SumCyclomatic-0.235CountLineCodeExe-0.235SumCyclomaticStrict-0.235SumCyclomaticModified... numeric
+@attribute '0.364AvgLineBlank+0.335AvgLine+0.316AvgCyclomaticModified+0.31 AvgCyclomatic+0.307AvgLineCode...' numeric
+@attribute 0.414MaxCyclomaticStrict+0.374MaxCyclomatic-0.317AvgLine-0.307AvgLineBlank+0.299MaxCyclomaticModified... numeric
+@attribute -0.761RatioCommentToCode-0.514CountLineComment-0.285AvgLineComment+0.159AvgEssential-0.116AvgLineBlank... numeric
+@attribute -0.758AvgLineComment-0.362AvgEssential+0.345AvgLineBlank+0.162AvgCyclomaticModified+0.151AvgCyclomatic... numeric
+@attribute 0.779AvgEssential-0.42AvgLineComment+0.233CountLineComment-0.209AvgCyclomaticStrict+0.137SumEssential... numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+4.235282,-1.644814,0.087383,0.637408,0.29387,-1.024889,FALSE
+2.976383,-0.039408,-0.165942,0.407812,-0.489637,0.292072,FALSE
+4.034486,-1.842783,0.091366,0.19446,0.369338,-0.941014,FALSE
+4.279168,-2.269482,0.748777,-2.770084,0.802625,-0.297008,FALSE
+1.80333,0.169632,0.196062,0.728014,0.206435,0.255183,TRUE
+-13.072758,-1.067782,-0.865248,-1.938383,-0.06126,1.172315,TRUE

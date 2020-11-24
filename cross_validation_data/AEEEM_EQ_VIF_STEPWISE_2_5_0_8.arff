@@ -1,0 +1,55 @@
+@relation data/M_multi_metrics_EQ.csv-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R40-weka.filters.unsupervised.attribute.Remove-R59-weka.filters.unsupervised.attribute.Remove-R50-weka.filters.unsupervised.attribute.Remove-R48-weka.filters.unsupervised.attribute.Remove-R55-weka.filters.unsupervised.attribute.Remove-R40-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.Remove-R33-weka.filters.unsupervised.attribute.Remove-R22-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R35-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R23-weka.filters.unsupervised.attribute.Remove-R42-weka.filters.unsupervised.attribute.Remove-R39-weka.filters.unsupervised.attribute.Remove-R29-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Remove-R41-weka.filters.unsupervised.attribute.Remove-R30-weka.filters.unsupervised.attribute.Remove-R30-weka.filters.unsupervised.attribute.Remove-R15-weka.filters.unsupervised.attribute.Remove-R28-weka.filters.unsupervised.attribute.Remove-R19-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R28-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R22-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R20-weka.filters.unsupervised.attribute.Remove-R15-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R19-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R13
+
+@attribute LDHH_fanIn numeric
+@attribute LDHH_numberOfPublicMethods numeric
+@attribute LDHH_numberOfPrivateAttributes numeric
+@attribute LDHH_numberOfPublicAttributes numeric
+@attribute WCHU_numberOfPrivateMethods numeric
+@attribute ck_oo_numberOfPublicAttributes numeric
+@attribute ck_oo_noc numeric
+@attribute numberOfCriticalBugsFoundUntil: numeric
+@attribute LDHH_numberOfAttributesInherited numeric
+@attribute ck_oo_numberOfAttributesInherited numeric
+@attribute ck_oo_dit numeric
+@attribute LDHH_noc numeric
+@attribute numberOfHighPriorityBugsFoundUntil: numeric
+@attribute ck_oo_numberOfPrivateAttributes numeric
+@attribute LDHH_dit numeric
+@attribute LDHH_numberOfMethodsInherited numeric
+@attribute ck_oo_numberOfPublicMethods numeric
+@attribute CvsExpEntropy numeric
+@attribute class {buggy,clean}
+
+@data
+0,0,0,0,0,0,0,0,0,2,1,0,0,1,0,0.001486,2,0.000804,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,0,2,0,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0.001486,5,0.055432,clean
+0,0.000359,0,0.00026,0,1,0,0,0,0,2,0,0,0,0,0.002302,1,0.000061,clean
+0,0,0.002002,0,0,0,0,0,0,0,2,0,0,5,0,0,6,0.15454,clean
+0.004039,0.00026,0.004584,0,0,0,0,0,0,0,1,0,0,11,0,0,19,0.057939,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,clean
+0,0,0,0,0,3,0,0,0,0,1,0,0,8,0,0.001486,14,0.000777,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,3,0,0,5,0.001232,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,clean
+0.002436,0.000389,0.002995,0.000593,1.01,0,0,0,0,0,1,0,0,17,0,0.001486,7,0.000657,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,0.001486,2,0.000078,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,clean
+0,0,0,0,0,0,0,1,0,0,2,0,0,2,0,0.000654,17,0.027731,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,clean
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,clean
+0.002555,0.002083,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0.072507,buggy
+0.006753,0.000876,0.000739,0,0,0,0,0,0,0,1,0,0,5,0,0.001486,8,0.118994,buggy
+0,0,0,0,0,0,0,0,0,1,1,0,0,5,0,0.003025,3,0.064571,buggy
+0.001329,0.001372,0.002642,0.000809,1.01,0,0,0,0.001395,11,2,0,0,4,0,0.011461,5,0.020959,buggy
+0.002028,0.001289,0.003725,0,1.01,0,0,0,0,0,1,0,1,3,0,0.003262,11,0.124749,buggy
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0.001486,3,0,buggy
+0.011698,0.001351,0,0,0,0,3,0,0,0,1,0,0,0,0,0.001486,12,0.023286,buggy
+0,0,0,0,0,0,0,1,0,0,1,0,1,4,0,0.001486,1,0.068796,buggy
+0.002405,0,0,0.002911,0,2,0,1,0.003184,74,1,0,0,1,0,0.001486,1,0.088975,buggy
+0,0,0.000628,0,0,0,0,0,0,0,1,0,0,9,0,0.002379,5,0.005361,buggy
+0.002532,0,0.001337,0,0,0,0,0,0,0,1,0,0,3,0,0.002587,8,0.001598,buggy
+0.006477,0.00298,0.005535,0.007476,11.25,7,0,2,0,0,1,0,1,14,0,0.002511,13,0.195082,buggy
+0,0,0,0,0,0,0,0,0.003413,9,2,0,0,1,0,0,9,0.005209,buggy

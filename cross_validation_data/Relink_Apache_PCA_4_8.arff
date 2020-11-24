@@ -1,0 +1,31 @@
+@relation 'Apache2.0_golden-weka.filters.unsupervised.attribute.Remove-R1-2,63-weka.filters.unsupervised.attribute.Remove-R12,15,18-20,23-24,28,35-38,46-47,51,53-54-weka.filters.unsupervised.attribute.Remove-R31-33-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.PrincipalComponents -R 0.95 -A 5-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1'
+
+@attribute -0.24SumCyclomatic-0.239CountStmtExe-0.239SumCyclomaticStrict-0.237CountStmt-0.234SumCyclomaticModified... numeric
+@attribute '0.325AvgCyclomatic+0.322AvgCyclomaticStrict+0.31 AvgCyclomaticModified+0.309AvgLineCode+0.303AvgLineBlank...' numeric
+@attribute -0.714RatioCommentToCode+0.397CountSemicolon+0.378AvgLine-0.303AvgLineComment-0.259CountLineComment... numeric
+@attribute 0.863AvgLine-0.447CountSemicolon+0.118CountLineComment+0.093AvgLineComment+0.093RatioCommentToCode... numeric
+@attribute '-0.728CountSemicolon-0.587RatioCommentToCode-0.32AvgLine+0.09 CountLineCodeDecl+0.066CountStmtDecl...' numeric
+@attribute 0.654AvgLineComment-0.315MaxCyclomatic+0.293AvgLineBlank-0.262MaxCyclomaticStrict-0.247MaxCyclomaticModified... numeric
+@attribute 0.393AvgLineComment-0.371AvgLineCode-0.349AvgCyclomaticModified+0.303MaxCyclomaticStrict+0.284MaxCyclomatic... numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+3.019833,-0.330161,-1.110701,0.022206,-0.783143,-0.3426,-0.271667,FALSE
+3.693478,-0.890179,0.609573,-0.181113,0.634455,-0.251349,0.795761,FALSE
+1.557373,0.532575,-0.340706,-0.046708,-0.176654,-0.415244,-0.199522,FALSE
+1.341688,1.165508,-1.006508,0.122671,-0.35932,0.832139,0.203685,FALSE
+1.844888,1.101443,0.042226,-0.15662,0.077293,0.193925,-0.118726,FALSE
+-1.345794,-0.883512,0.104793,-0.081214,0.258662,0.094504,-0.006773,FALSE
+-2.262615,6.057301,-0.06306,-0.12726,-0.210615,0.253233,-0.455187,FALSE
+0.862487,2.773879,0.414697,-0.446198,0.082571,-0.215393,-1.423176,FALSE
+-2.932095,-0.47345,-0.183737,0.120281,0.236728,-0.196766,0.734337,FALSE
+0.498667,0.102682,0.628068,-0.272837,0.408886,-0.851924,0.515209,TRUE
+1.039356,-0.509853,0.278011,-0.12696,0.220045,-0.402543,0.058729,TRUE
+-3.409063,-1.811754,0.485377,-0.165404,0.371918,0.063754,-0.586425,TRUE
+0.379708,0.348497,0.034337,-0.1161,0.126718,-0.346023,-0.069943,TRUE
+3.037892,-0.47799,0.065971,-0.129092,0.121065,-0.376998,0.184476,TRUE
+-1.354844,-0.875949,0.183289,-0.097517,0.260758,0.09221,-0.305479,TRUE
+1.224519,1.099686,-0.819223,0.098013,-0.19615,0.582521,0.506408,TRUE
+-0.861104,-0.767549,-0.247287,0.025606,0.129408,0.258791,0.011149,TRUE
+2.501293,-0.005466,0.372799,-0.163002,0.366593,-0.19804,0.266568,TRUE
+1.204222,0.052842,0.067278,-0.073181,0.239563,0.081857,0.15789,TRUE

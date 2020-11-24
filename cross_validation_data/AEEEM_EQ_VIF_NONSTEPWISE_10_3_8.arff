@@ -1,0 +1,52 @@
+@relation 'data/M_multi_metrics_EQ.csv-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R1-2,4,6-11,13-15,18-21,24-26,28,30,33,35-43,45-47,49-55,57-61'
+
+@attribute LDHH_fanIn numeric
+@attribute WCHU_numberOfPublicAttributes numeric
+@attribute LDHH_numberOfPublicAttributes numeric
+@attribute ck_oo_noc numeric
+@attribute numberOfCriticalBugsFoundUntil: numeric
+@attribute WCHU_noc numeric
+@attribute LDHH_numberOfAttributesInherited numeric
+@attribute ck_oo_numberOfAttributesInherited numeric
+@attribute ck_oo_dit numeric
+@attribute LDHH_noc numeric
+@attribute WCHU_dit numeric
+@attribute WCHU_numberOfAttributesInherited numeric
+@attribute numberOfHighPriorityBugsFoundUntil: numeric
+@attribute LDHH_dit numeric
+@attribute ck_oo_numberOfMethodsInherited numeric
+@attribute class {buggy,clean}
+
+@data
+0.008452,0,0,1,0,1.01,0,0,1,0,0,0,0,0,18,buggy
+0.001625,0,0,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0.0009,0,0,0,1,0,0.005538,16,2,0,0,4.05,0,0,91,buggy
+0.001784,0,0,0,0,0,0.003134,3,1,0,0,2.03,0,0,15,buggy
+0,0,0,0,0,0,0.000966,2,2,0,0,1.01,0,0,97,buggy
+0.006753,0,0,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0.002331,0,0,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0.010607,2.02,0.000918,0,1,0,0,0,1,0,0,0,0,0,12,buggy
+0.005368,0,0,0,1,0,0,1,1,0,0,0,0,0,32,buggy
+0,0,0,0,1,0,0,0,1,0,0,0,1,0,7,buggy
+0.007051,0,0,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,1,0,0,0,1,0,0,0,0,0,15,clean
+0,0,0,0,0,0,0,1,2,0,0,0,0,0,17,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0.001413,0,0,0,0,0,0,0,1,0,0,0,0,0,19,clean
+0,0,0,1,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,1,0,0,0,1,0,0,0,0,0,8,clean

@@ -1,0 +1,33 @@
+@relation 'Apache2.0_golden-weka.filters.unsupervised.attribute.Remove-R1-2,63-weka.filters.unsupervised.attribute.Remove-R12,15,18-20,23-24,28,35-38,46-47,51,53-54-weka.filters.unsupervised.attribute.Remove-R31-33-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R3'
+
+@attribute AvgEssential numeric
+@attribute AvgLine numeric
+@attribute AvgLineCode numeric
+@attribute AvgLineComment numeric
+@attribute CountLineCodeDecl numeric
+@attribute CountLineComment numeric
+@attribute CountSemicolon numeric
+@attribute MaxCyclomaticModified numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+1,20,14,3,147,157,220,7,0.35,TRUE
+3,47,40,0,38,81,141,16,0.37,TRUE
+0,0,0,0,0,16,0,0,0,TRUE
+1,16,14,1,18,44,44,7,0.46,TRUE
+1,33,26,2,57,45,232,30,0.12,TRUE
+3,88,56,22,77,230,255,34,0.51,TRUE
+3,39,30,3,258,357,572,32,0.27,TRUE
+2,43,26,12,38,169,166,12,0.58,TRUE
+2,34,26,6,70,229,129,15,0.8,TRUE
+3,29,22,4,85,108,118,13,0.38,TRUE
+7,48,45,0,18,29,81,16,0.21,FALSE
+3,26,21,2,85,129,60,13,0.78,FALSE
+1,13,10,1,26,25,45,6,0.29,FALSE
+1,19,14,5,45,98,85,8,0.61,FALSE
+8,100,83,3,49,44,144,33,0.16,FALSE
+4,54,35,7,226,311,409,22,0.36,FALSE
+2,28,22,2,99,84,245,21,0.24,FALSE
+2,24,19,0,13,16,22,4,0.28,FALSE
+0,0,0,0,0,15,0,0,0,FALSE

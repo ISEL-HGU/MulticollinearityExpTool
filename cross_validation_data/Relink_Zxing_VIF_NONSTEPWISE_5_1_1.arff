@@ -1,0 +1,46 @@
+@relation 'zxing1.6_golden-weka.filters.unsupervised.attribute.Remove-R1-2,54-weka.filters.unsupervised.attribute.Remove-R12,15,20,24,31-32,37-40,45-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R1-21,23-26'
+
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+0,FALSE
+0,FALSE
+0.24,FALSE
+0.52,FALSE
+0.06,FALSE
+0,FALSE
+0.06,FALSE
+0,FALSE
+0.45,FALSE
+0.14,FALSE
+0.24,FALSE
+0.24,FALSE
+0,FALSE
+0.13,FALSE
+0,FALSE
+0,FALSE
+0,FALSE
+0.13,FALSE
+0,FALSE
+1,FALSE
+0,FALSE
+0,FALSE
+0,FALSE
+0,FALSE
+0,FALSE
+0.21,FALSE
+0,FALSE
+0.25,FALSE
+0.22,TRUE
+0,TRUE
+0.72,TRUE
+0.03,TRUE
+0.27,TRUE
+0.04,TRUE
+0.22,TRUE
+0,TRUE
+0.03,TRUE
+0.23,TRUE
+0.08,TRUE
+0.32,TRUE

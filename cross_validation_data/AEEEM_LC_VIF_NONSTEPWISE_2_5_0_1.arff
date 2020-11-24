@@ -1,0 +1,79 @@
+@relation 'data/M_multi_metrics_LC.csv-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R1-11,13-16,18-28,30-43,45,47-61'
+
+@attribute LDHH_numberOfPublicAttributes numeric
+@attribute numberOfCriticalBugsFoundUntil: numeric
+@attribute ck_oo_dit numeric
+@attribute numberOfHighPriorityBugsFoundUntil: numeric
+@attribute numberOfMajorBugsFoundUntil: numeric
+@attribute class {buggy,clean}
+
+@data
+0,0,1,0,0,clean
+0.003514,0,1,0,0,clean
+0,0,2,0,0,clean
+0.000661,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,4,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,4,0,0,clean
+0,0,1,0,0,clean
+0,0,2,0,0,clean
+0,0,1,0,0,clean
+0,0,2,0,0,clean
+0,0,3,0,0,clean
+0,0,3,0,0,clean
+0,0,3,0,0,clean
+0,0,4,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,4,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,3,0,0,clean
+0,0,3,0,0,clean
+0,0,3,0,0,clean
+0,0,3,0,0,clean
+0,0,1,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,4,0,0,clean
+0,0,3,0,0,clean
+0,0,2,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,3,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,3,0,0,clean
+0,0,2,0,0,clean
+0,0,1,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,1,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,2,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,1,0,0,clean
+0,0,3,0,0,buggy
+0.001076,0,2,0,0,buggy
+0,0,1,0,0,buggy
+0,0,2,0,0,buggy
+0,0,1,0,0,buggy
+0.003908,0,3,0,0,buggy

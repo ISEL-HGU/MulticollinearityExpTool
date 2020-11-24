@@ -1,0 +1,47 @@
+@relation jedit-4.0_deleteColumns-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R7
+
+@attribute dit numeric
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute lcom3 numeric
+@attribute loc numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute avg_cc numeric
+@attribute bug {1,0}
+
+@data
+2,0,0,4,0,34,0,0.666667,1,10,0.6667,0
+2,0,1,1,1,28,0,0.625,1,12.5,0.5,0
+1,0,0,5,0.555556,298,2,0.357143,0,72.75,1,0
+1,0,4,0,0.833333,118,0,0.3,0,28,2.25,0
+6,0,38,5,0.8,306,1,0.25,12,24.083333,1.5833,0
+2,0,6,1,1,279,0,0.45,1,68.5,2.25,0
+6,0,2,3,0.8,202,2,0.35,0,38.4,0.8,0
+2,0,15,3,2,279,0,0.229167,1,45.5,0.8333,0
+3,0,0,7,2,5,0,1,0,4,0,0
+1,0,1,3,2,2,0,1,0,0,1,0
+1,0,0,18,0.653846,386,1,0.342857,0,26,2.3571,0
+2,0,35,1,0.866667,163,0,0.30303,3,13.545455,1.4545,0
+6,0,0,2,0.714286,404,0,0.5,5,77,1.8,0
+7,0,20,2,0.8,293,0,0.375,6,35,1.375,0
+2,0,0,1,0.444444,80,0,0.357143,2,18.25,1.75,0
+1,0,6075,6,0.921126,5223,1,0.138067,0,42.483051,1.4492,0
+1,0,0,1,2,6,0,1,0,3,0,0
+1,0,1,3,2,2,0,1,0,0,1,0
+3,0,1,1,2,10,0,0.75,0,4,0.5,0
+1,0,0,2,0.611111,201,3,0.666667,0,47.75,2.5,0
+2,0,3,1,0.771429,215,0,0.722222,3,33.666667,3,0
+1,0,10,8,2,5,0,0.6,0,0,1,0
+2,0,1,3,1,10,0,0.75,0,3.5,0.5,0
+1,3,7,31,0.6,49,1,0.583333,0,6.833333,0.8333,1
+1,0,228,10,0.646875,1520,2,0.136364,0,44.757576,3.7879,1
+5,0,28,1,2,143,0,0.5,1,16.875,1.125,1
+6,0,0,2,0.708333,337,0,0.5,4,64,1.6,1
+1,0,0,11,0.666667,28,0,0.5,0,5.25,0.75,1
+1,0,139,10,0.785714,853,3,0.227273,0,37.5,2.0909,1
+6,0,24,3,0.857143,74,2,0.625,1,8,0.875,1
+3,0,0,2,2,5,0,1,0,4,0,1

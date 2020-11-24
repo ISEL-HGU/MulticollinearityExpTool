@@ -1,0 +1,49 @@
+@relation 'zxing1.6_golden-weka.filters.unsupervised.attribute.Remove-R1-2,54-weka.filters.unsupervised.attribute.Remove-R12,15,20,24,31-32,37-40,45-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R1-3,5,7,9-21,23-26'
+
+@attribute AvgEssential numeric
+@attribute AvgLineBlank numeric
+@attribute AvgLineComment numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+3,1,0,0.03,FALSE
+1,0,3,0.23,FALSE
+1,0,0,1.58,FALSE
+6,4,5,0.24,FALSE
+1,0,0,0,FALSE
+1,0,1,0.16,FALSE
+3,1,1,0.14,FALSE
+1,0,0,0,FALSE
+1,0,0,0.14,FALSE
+1,0,0,0,FALSE
+1,0,0,0,FALSE
+1,0,0,0.41,FALSE
+1,0,0,0.07,FALSE
+1,0,0,0,FALSE
+1,0,1,0.13,FALSE
+1,0,0,0.52,FALSE
+7,0,6,0.21,FALSE
+1,0,1,0.14,FALSE
+1,0,0,0.18,FALSE
+1,0,0,0.01,FALSE
+1,0,0,0,FALSE
+1,0,0,0,FALSE
+1,0,0,0,FALSE
+1,0,1,0.13,FALSE
+3,0,0,0.09,FALSE
+1,0,0,0.3,FALSE
+1,4,3,0.17,FALSE
+1,0,0,0,FALSE
+1,0,0,0.57,FALSE
+1,0,0,0.23,TRUE
+2,1,1,0.27,TRUE
+2,0,2,0.12,TRUE
+1,0,1,0.23,TRUE
+2,0,0,0.04,TRUE
+1,0,0,0,TRUE
+3,0,0,0.02,TRUE
+1,0,0,0.09,TRUE
+1,0,2,0.22,TRUE
+1,0,0,0,TRUE
+1,0,0,0.23,TRUE

@@ -1,0 +1,33 @@
+@relation 'Apache2.0_golden-weka.filters.unsupervised.attribute.Remove-R1-2,63-weka.filters.unsupervised.attribute.Remove-R12,15,18-20,23-24,28,35-38,46-47,51,53-54-weka.filters.unsupervised.attribute.Remove-R31-33-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R3'
+
+@attribute AvgEssential numeric
+@attribute AvgLine numeric
+@attribute AvgLineCode numeric
+@attribute AvgLineComment numeric
+@attribute CountLineCodeDecl numeric
+@attribute CountLineComment numeric
+@attribute CountSemicolon numeric
+@attribute MaxCyclomaticModified numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+6,73,59,6,446,413,1365,57,0.15,TRUE
+1,19,12,0,51,56,112,10,0.24,TRUE
+2,36,32,0,95,59,185,30,0.15,TRUE
+2,42,29,7,311,467,713,27,0.33,TRUE
+3,45,35,7,126,259,1606,19,0.28,TRUE
+2,32,23,4,313,320,632,31,0.24,TRUE
+3,36,30,4,94,168,159,24,0.45,TRUE
+4,36,29,5,193,1284,567,30,1.21,TRUE
+4,4294967253,23,2,67,61,96,16,0.28,TRUE
+5,65,48,7,119,127,292,44,0.22,TRUE
+5,52,34,2,19,25,38,9,0.32,FALSE
+1,14,13,0,22,123,42,4,1.84,FALSE
+8,93,72,1,27,23,111,23,0.1,FALSE
+1,10,9,0,32,26,24,2,0.41,FALSE
+3,43,34,2,72,43,202,31,0.13,FALSE
+2,39,29,6,264,381,624,29,0.3,FALSE
+4,50,34,7,428,580,679,36,0.4,FALSE
+2,20,16,2,54,43,38,7,0.34,FALSE
+2,52,28,17,49,176,92,7,1.26,FALSE

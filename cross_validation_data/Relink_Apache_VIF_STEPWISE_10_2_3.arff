@@ -1,0 +1,35 @@
+@relation 'Apache2.0_golden-weka.filters.unsupervised.attribute.Remove-R1-2,63-weka.filters.unsupervised.attribute.Remove-R12,15,18-20,23-24,28,35-38,46-47,51,53-54-weka.filters.unsupervised.attribute.Remove-R31-33-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R11'
+
+@attribute AvgEssential numeric
+@attribute AvgLine numeric
+@attribute AvgLineBlank numeric
+@attribute AvgLineCode numeric
+@attribute AvgLineComment numeric
+@attribute CountLineCodeDecl numeric
+@attribute CountLineComment numeric
+@attribute CountSemicolon numeric
+@attribute MaxCyclomaticModified numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+2,24,5,19,0,13,16,22,4,0.28,FALSE
+2,24,2,16,2,58,68,46,11,0.54,FALSE
+0,0,0,0,0,0,16,0,0,0,FALSE
+1,28,3,22,3,64,62,144,7,0.25,FALSE
+1,13,1,12,1,52,42,97,7,0.21,FALSE
+1,8,1,7,0,13,30,16,3,0.94,FALSE
+1,17,3,14,0,69,39,111,6,0.2,FALSE
+0,0,0,0,0,0,16,0,0,0,FALSE
+1,47,6,36,4,27,28,67,7,0.25,FALSE
+3,26,3,21,2,85,129,60,13,0.78,FALSE
+3,29,4,22,4,85,108,118,13,0.38,TRUE
+1,47,4,35,9,65,135,179,23,0.35,TRUE
+3,48,3,42,5,70,88,160,25,0.27,TRUE
+3,35,3,26,7,119,280,309,18,0.46,TRUE
+3,39,5,30,3,258,357,572,32,0.27,TRUE
+4,100,16,53,5,34,59,194,25,0.19,TRUE
+9,128,14,82,29,139,483,557,125,0.41,TRUE
+3,38,4,26,5,125,211,362,16,0.31,TRUE
+0,0,0,0,0,0,23,0,0,0,TRUE
+1,13,1,11,1,16,21,33,4,0.31,TRUE

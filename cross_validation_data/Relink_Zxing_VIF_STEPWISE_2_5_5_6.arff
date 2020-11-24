@@ -1,0 +1,51 @@
+@relation 'zxing1.6_golden-weka.filters.unsupervised.attribute.Remove-R1-2,54-weka.filters.unsupervised.attribute.Remove-R12,15,20,24,31-32,37-40,45-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R20-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R6'
+
+@attribute AvgEssential numeric
+@attribute AvgLineBlank numeric
+@attribute AvgLineComment numeric
+@attribute CountLineCodeDecl numeric
+@attribute CountStmtDecl numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+4,1,1,38,32,0.42,TRUE
+1,0,0,18,16,0.02,TRUE
+2,1,0,47,33,0.11,TRUE
+2,0,0,74,78,0.04,TRUE
+3,0,0,10,9,0.02,TRUE
+2,0,4,18,16,0.25,TRUE
+1,1,0,34,32,0.05,TRUE
+1,0,0,13,12,0.02,TRUE
+1,0,0,21,13,0.02,TRUE
+3,0,4,50,33,0.19,TRUE
+1,0,0,52,50,0.09,TRUE
+1,0,0,18,10,0,TRUE
+4,2,0,53,57,0.03,FALSE
+2,1,0,7,5,0,FALSE
+1,0,1,16,14,0.24,FALSE
+1,0,1,9,8,0.8,FALSE
+1,0,0,7,5,0,FALSE
+2,1,0,9,10,0.03,FALSE
+1,0,0,11,10,0.32,FALSE
+1,0,0,27,31,0,FALSE
+1,0,0,5,5,0,FALSE
+1,0,0,10,9,0,FALSE
+1,2,0,10,7,0,FALSE
+1,0,0,4,3,0,FALSE
+2,0,0,11,12,0,FALSE
+1,0,0,5,4,0,FALSE
+1,0,0,13,12,0,FALSE
+2,1,5,21,11,0.23,FALSE
+1,0,0,2,1,0,FALSE
+1,0,0,9,8,0.16,FALSE
+1,0,0,11,9,0.54,FALSE
+1,1,1,15,25,0.07,FALSE
+2,1,2,111,109,0.28,FALSE
+2,0,0,23,19,0.2,FALSE
+1,0,0,5,4,0,FALSE
+6,4,5,39,44,0.24,FALSE
+1,0,0,10,8,0.14,FALSE
+1,2,2,24,30,0.36,FALSE
+4,4,16,27,24,0.36,FALSE
+1,0,0,43,37,0.01,FALSE

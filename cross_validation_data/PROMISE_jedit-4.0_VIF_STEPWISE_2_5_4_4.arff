@@ -1,0 +1,47 @@
+@relation jedit-4.0_deleteColumns-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R7
+
+@attribute dit numeric
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute lcom3 numeric
+@attribute loc numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute avg_cc numeric
+@attribute bug {1,0}
+
+@data
+2,0,35,1,0.866667,163,0,0.30303,3,13.545455,1.4545,0
+3,0,0,2,2,5,0,1,0,4,0,0
+7,0,77,3,0.888889,359,1,0.283333,0,22.333333,1.0667,0
+2,0,1,5,2,30,0,0.625,0,14,0.5,0
+2,0,2,2,0.555556,173,0,0.5,1,41.5,0.75,0
+1,0,3,7,0.583333,226,1,0.35,0,21.2,1.8,0
+2,0,1,1,1,80,0,0.625,1,38.5,0.5,0
+1,0,0,2,0.46875,269,0,0.6,0,51.2,3.8,0
+1,0,0,5,1.095238,222,0,0.333333,0,52.75,20,0
+1,0,0,4,0.5,66,0,0.75,0,9.666667,1,0
+7,0,2,1,0.5,362,1,0.466667,0,70.4,1.8,0
+2,0,3,1,1,273,0,0.533333,1,89.666667,0.6667,0
+2,0,1,1,2,30,0,0.625,1,14,0.5,0
+2,0,1,1,2,6,0,0.75,0,2,0.5,0
+1,0,0,38,0,135,0,0.484848,0,11.181818,1.1818,0
+2,0,3,8,0.666667,93,0,0.444444,0,14,0.8333,0
+2,0,15,3,2,279,0,0.229167,1,45.5,0.8333,0
+1,7,91,7,2,38,0,0.414286,0,1.714286,0.9286,0
+8,0,1,2,2,126,0,0.75,4,62,4.5,0
+4,0,0,17,2,5,0,1,0,4,0,0
+1,0,4,0,0.833333,118,0,0.3,0,28,2.25,0
+2,0,1,3,2,65,0,0.625,0,31.5,0.5,0
+2,0,1,2,2,8,0,0.625,0,3,0.5,0
+1,0,43,4,0.661765,747,0,0.104575,0,40.055556,3.0556,1
+7,0,517,7,0.828008,1788,5,0.210526,8,44.128205,2.1282,1
+5,0,28,1,2,143,0,0.5,1,16.875,1.125,1
+4,0,1059,13,0.963481,1085,4,0.103009,25,18.518519,1.5741,1
+6,0,0,2,0.708333,337,0,0.5,4,64,1.6,1
+6,0,1,1,0.5,307,0,1,4,98,2,1
+1,0,46,3,0.902778,1223,3,0.254464,0,42.107143,3.0714,1
+1,0,10339,93,0.936533,4593,13,0.080909,0,29.313333,3.44,1

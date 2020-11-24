@@ -1,0 +1,26 @@
+@relation 'synapse-1.0_deleteColumns-weka.filters.unsupervised.attribute.Remove-R1-2,4-9,11,14,16-20'
+
+@attribute noc numeric
+@attribute lcom3 numeric
+@attribute dam numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute bug {1,0}
+
+@data
+0,2,0,0,1,0
+0,0.8125,0.75,1,0.3,0
+0,0.25,0,0,0.6,0
+0,0.846154,0.923077,0,0.416667,0
+0,2,0,0,0.428571,0
+0,0.75,0.5,0,0.3125,0
+0,2,0,0,0.666667,0
+0,1,0,0,1,0
+0,2,0,0,0.666667,0
+0,2,0,0,0,0
+0,0.866667,0.333333,0,0.4,0
+0,0.8,0.666667,0,0.32,0
+0,2,0,0,1,0
+0,0.809524,0.666667,1,0.238095,0
+0,0.885714,0.7,0,0.3,1
+0,0.825397,0.777778,0,0.223214,1

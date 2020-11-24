@@ -1,0 +1,64 @@
+@relation KC2-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R3
+
+@attribute ev(g) numeric
+@attribute l numeric
+@attribute i numeric
+@attribute lOComment numeric
+@attribute lOBlank numeric
+@attribute lOCodeAndComment numeric
+@attribute uniq_Op numeric
+@attribute problems {no,yes}
+
+@data
+1,0.67,7.74,0,0,0,3,no
+1,0.07,37.44,1,4,2,12,no
+1,0.4,6.2,0,0,0,5,no
+1,0.07,45.55,1,5,0,16,no
+1,0.67,5.33,0,0,0,3,no
+1,0.67,5.33,0,0,0,3,no
+1,0.14,9.22,0,0,0,8,no
+3,0.18,11.89,0,0,0,11,no
+1,0.67,5.33,0,0,0,3,no
+1,0.25,10.3,2,2,0,6,no
+1,0.5,9.83,0,0,0,4,no
+3,0.08,28.31,2,5,0,15,no
+1,0.11,45.43,0,5,0,10,no
+1,0.67,7.74,0,1,0,3,no
+1,0.5,11.23,0,2,0,4,no
+3,0.09,19.4,1,2,0,13,no
+4,0.07,92.81,3,11,0,13,no
+1,0.3,9,0,1,0,5,no
+7,0.03,57.63,29,7,0,25,no
+1,0.67,5.33,0,0,0,3,no
+4,0.08,24.97,0,2,0,12,no
+1,0.4,14.62,0,0,1,5,no
+1,0.5,5.8,1,0,0,4,no
+1,0.3,9,0,0,0,5,no
+3,0.05,29.07,1,8,1,15,no
+1,0.67,5.33,0,0,0,3,no
+1,0.25,21.89,0,0,0,8,no
+1,0.17,32.77,0,0,0,10,no
+1,0.05,72.51,2,13,0,13,no
+1,0.23,11.86,1,2,0,7,no
+1,0.33,10,0,0,0,4,no
+4,0.05,46.73,2,19,0,17,no
+1,0.17,10.16,0,1,0,8,no
+1,0.67,5.33,0,0,0,3,no
+1,0.08,28.4,0,4,0,11,no
+1,0.4,6.2,0,1,0,5,no
+1,0.25,21.89,0,0,0,8,no
+1,0.67,5.33,0,0,0,3,no
+1,0,0,0,0,0,3,no
+1,0.67,5.33,0,0,0,3,no
+1,0,0,0,0,0,1,no
+1,0.07,39.13,3,3,0,15,yes
+1,0.24,26.28,0,1,0,7,yes
+13,0.03,71.13,7,13,5,24,yes
+10,0.04,76.07,3,15,0,16,yes
+6,0.03,83.01,18,17,0,18,yes
+1,0.1,38.55,0,3,0,13,yes
+9,0.04,62.74,0,7,0,17,yes
+1,0.08,31.49,0,3,0,12,yes
+4,0.03,34.57,3,9,0,21,yes
+5,0.05,25.85,17,2,0,19,yes
+1,0.06,46.06,1,10,0,15,yes

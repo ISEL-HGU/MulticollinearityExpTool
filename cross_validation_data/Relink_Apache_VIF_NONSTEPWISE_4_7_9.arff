@@ -1,0 +1,28 @@
+@relation 'Apache2.0_golden-weka.filters.unsupervised.attribute.Remove-R1-2,63-weka.filters.unsupervised.attribute.Remove-R12,15,18-20,23-24,28,35-38,46-47,51,53-54-weka.filters.unsupervised.attribute.Remove-R31-33-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R1-4,6-7,9-14,16-21,23-26'
+
+@attribute AvgLine numeric
+@attribute AvgLineComment numeric
+@attribute CountSemicolon numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+40,4,126,0.22,TRUE
+29,4,118,0.38,TRUE
+65,13,1310,0.36,TRUE
+85,20,437,0.49,TRUE
+27,3,86,0.61,TRUE
+0,0,0,0,TRUE
+47,5,382,0.2,TRUE
+25,3,92,0.79,TRUE
+49,9,537,0.39,TRUE
+45,5,67,0.47,FALSE
+42,0,118,0.16,FALSE
+17,1,52,0.27,FALSE
+31,1,185,0.19,FALSE
+29,2,460,0.13,FALSE
+20,6,340,2.01,FALSE
+221,21,210,0.37,FALSE
+6,0,7,0.69,FALSE
+10,0,22,0.87,FALSE
+0,0,0,0,FALSE

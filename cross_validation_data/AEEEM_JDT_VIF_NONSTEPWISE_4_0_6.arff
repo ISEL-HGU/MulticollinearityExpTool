@@ -1,0 +1,113 @@
+@relation 'data/M_multi_metrics_JDT.csv-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R1-14,17-21,23-30,32-39,41-43,46-47,49-61'
+
+@attribute ck_oo_numberOfPublicAttributes numeric
+@attribute ck_oo_noc numeric
+@attribute WCHU_noc numeric
+@attribute LDHH_noc numeric
+@attribute WCHU_lcom numeric
+@attribute numberOfHighPriorityBugsFoundUntil: numeric
+@attribute ck_oo_numberOfPrivateAttributes numeric
+@attribute LDHH_dit numeric
+@attribute class {buggy,clean}
+
+@data
+10,0,0,0,3.41,0,0,0,buggy
+10,0,0,0,11.58,0,0,0.001409,buggy
+2,0,0,0,0,0,0,0.001409,buggy
+2,0,0,0,3.27,0,0,0,buggy
+1,1,0,0,0,1,0,0.001409,buggy
+34,1,0,0,84.29,2,0,0.001409,buggy
+259,0,0,0,2.27,1,0,0,buggy
+2,0,0,0,3.76,1,0,0.001409,buggy
+10,0,0,0,0,0,0,0,buggy
+3,0,0,0,2.22,0,0,0,buggy
+43,5,0,0,0,7,9,0.001409,buggy
+0,2,1.01,0.01184,0,1,0,0,buggy
+31,0,0,0,77.6,8,35,0,buggy
+20,0,0,0,32.08,4,19,0,buggy
+0,0,0,0,0,0,0,0,buggy
+3,0,0,0,1.65,8,1,0,buggy
+0,0,0,0,0,1,0,0,buggy
+3,0,0,0,0,0,0,0,buggy
+0,0,0,0,1.17,1,2,0,buggy
+0,0,0,0,1.02,0,2,0,buggy
+0,0,0,0,0,0,0,0,clean
+5,0,0,0,0,0,0,0,clean
+0,3,0,0,4.7,1,4,0,clean
+0,0,0,0,0,0,3,0,clean
+0,0,0,0,2.48,0,3,0,clean
+0,0,0,0,0,0,3,0,clean
+2,0,0,0,0,0,0,0.001409,clean
+1,0,0,0,0,0,0,0,clean
+0,0,0,0,0,1,1,0,clean
+0,0,0,0,0,0,2,0,clean
+0,0,0,0,0,0,2,0,clean
+1,0,0,0,0,0,0,0,clean
+0,0,0,0,1.06,0,0,0,clean
+2,2,0,0,1.54,2,0,0,clean
+0,0,0,0,0,0,2,0,clean
+0,0,0,0,0,1,0,0,clean
+1,0,0,0,0,0,0,0.001409,clean
+17,3,0,0,0,1,0,0.001409,clean
+0,0,0,0,0,1,4,0,clean
+0,0,0,0,0,0,8,0,clean
+1,0,0,0,0,0,1,0,clean
+0,0,0,0,0,0,2,0,clean
+2,0,0,0,0,0,0,0,clean
+0,0,0,0,0,0,0,0,clean
+0,2,0,0,0,0,0,0,clean
+0,0,0,0,1.05,1,0,0,clean
+0,0,0,0,0,0,0,0.001409,clean
+2,0,0,0,0,1,5,0,clean
+0,1,0,0,9.67,2,0,0,clean
+8,0,0,0,0,2,0,0,clean
+0,0,0,0,0,0,2,0,clean
+0,0,0,0,0,0,0,0,clean
+0,0,0,0,0,0,0,0.001409,clean
+3,1,1.01,0.001203,0,1,0,0.001409,clean
+0,1,0,0,1.06,0,1,0,clean
+0,0,0,0,1.02,1,0,0,clean
+0,0,0,0,0,1,0,0.001409,clean
+2,0,0,0,0,1,0,0.001409,clean
+0,1,1.01,0.001086,0,0,0,0,clean
+5,0,0,0,0,0,0,0,clean
+4,0,0,0,0,0,0,0,clean
+2,0,0,0,0,0,0,0,clean
+0,0,0,0,0,0,1,0,clean
+0,0,0,0,0,0,3,0,clean
+0,0,0,0,0,0,1,0,clean
+4,0,0,0,0,0,0,0,clean
+0,0,0,0,0,0,4,0,clean
+0,0,0,0,0,0,0,0.001409,clean
+0,0,0,0,0,0,2,0,clean
+0,2,0,0,0,0,0,0,clean
+0,0,0,0,0,0,7,0,clean
+1,0,0,0,2.31,0,7,0,clean
+0,1,0,0,0,0,0,0,clean
+1,0,0,0,1.09,0,0,0,clean
+3,0,0,0,2.11,0,0,0,clean
+0,0,0,0,1.18,0,6,0,clean
+0,0,0,0,0,0,0,0,clean
+5,0,0,0,3.89,0,0,0.001409,clean
+0,0,0,0,0,0,0,0,clean
+0,1,0,0,0,0,0,0,clean
+1,0,0,0,0,0,0,0.001409,clean
+0,0,0,0,0,0,3,0,clean
+0,0,0,0,0,0,0,0,clean
+9,0,0,0,1.5,1,0,0,clean
+1,1,0,0,0,0,0,0,clean
+4,0,0,0,2.22,0,0,0,clean
+3,0,0,0,0,1,0,0,clean
+4,0,0,0,0,0,0,0,clean
+0,0,0,0,0,0,2,0,clean
+0,0,0,0,0,0,1,0,clean
+1,0,0,0,0,0,0,0,clean
+0,0,0,0,0,0,1,0,clean
+0,0,0,0,0,0,1,0,clean
+0,0,0,0,0,0,14,0,clean
+5,0,0,0,1.03,1,0,0,clean
+0,0,0,0,0,0,0,0.001409,clean
+5,0,0,0,0,1,0,0,clean
+3,0,0,0,0,1,0,0,clean
+0,0,0,0,0,0,0,0,clean
+4,0,0,0,1.08,0,0,0,clean

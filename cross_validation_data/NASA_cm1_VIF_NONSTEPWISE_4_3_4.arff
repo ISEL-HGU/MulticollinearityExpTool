@@ -1,0 +1,59 @@
+@relation 'CM1-weka.filters.unsupervised.attribute.Remove-R1-2,4-6,8-12,14,16-21'
+
+@attribute ev(g) numeric
+@attribute l numeric
+@attribute lOCode numeric
+@attribute lOBlank numeric
+@attribute defects {false,true}
+
+@data
+1,0.11,3,4,false
+1,0.4,0,0,false
+1,0.07,8,33,false
+1,0.06,7,15,false
+1,0.1,9,13,false
+1,0.16,2,4,false
+1,0.11,6,8,false
+1,0.5,0,0,false
+1,0.1,0,5,false
+1,0.4,0,0,false
+1,0.08,1,8,false
+1,0.11,10,9,false
+5,0.04,0,5,false
+7,0.04,6,25,false
+1,0.4,2,3,false
+1,0.05,0,3,false
+10,0.09,0,12,false
+1,0.06,0,14,false
+1,0.08,0,1,false
+1,0.38,0,0,false
+1,0.2,2,7,false
+1,0.04,0,51,false
+1,0.04,1,1,false
+1,0.14,2,3,false
+1,0.33,1,0,false
+1,0.5,0,0,false
+1,0.5,0,1,false
+1,0.38,0,3,false
+1,0.07,2,9,false
+1,0.03,18,33,false
+5,0.03,3,16,false
+1,0.09,4,5,false
+1,0.12,0,7,false
+9,0.02,44,84,false
+6,0.02,63,134,false
+1,0.67,0,0,false
+1,0.04,4,77,false
+5,0.05,4,39,false
+10,0.05,1,8,false
+1,0.11,2,7,false
+3,0.02,12,31,false
+1,0.12,4,2,false
+1,0.35,0,2,false
+1,0.06,5,10,false
+3,0.03,0,7,false
+1,0.04,0,17,true
+1,0.04,11,93,true
+1,0.11,0,7,true
+1,0.1,2,12,true
+1,0.03,0,10,true

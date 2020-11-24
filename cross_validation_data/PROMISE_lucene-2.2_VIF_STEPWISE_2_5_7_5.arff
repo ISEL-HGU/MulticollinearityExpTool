@@ -1,0 +1,40 @@
+@relation lucene-2.2_deleteColumns-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R15-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R8
+
+@attribute dit numeric
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute lcom3 numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute max_cc numeric
+@attribute bug {1,0}
+
+@data
+1,0,28,25,2,0,0.3,0,0,1,0
+1,0,1,0,1,0,1,0,17,0,0
+3,0,53,1,0.692308,1,0.333333,4,34.928571,14,0
+3,0,15,1,1.12,0,0.5,1,28.833333,14,0
+2,1,0,2,0.454545,1,0.416667,3,28.083333,1,0
+1,0,0,0,1.166667,0,0.333333,0,30,6,0
+2,2,8,5,0.5,2,0.407407,2,10.222222,2,0
+1,0,15,11,2,0,0.375,0,0,1,0
+1,5,15,32,2,0,0.583333,0,2.5,1,0
+2,0,0,1,0.125,0,0.466667,1,15,1,0
+1,0,0,3,0.691667,8,0.2,0,71.25,1,1
+1,0,66,3,2,0,0.583333,0,0,1,1
+1,5,103,31,0.928571,0,0.28,0,16,1,1
+1,2,105,19,2,0,0.311111,0,12.066667,1,1
+2,0,171,12,0.769231,0,0.102564,6,15.222222,12,1
+2,0,8,3,0.428571,1,0.25,3,10.5,5,1
+2,0,0,1,0.666667,0,0.375,2,12.714286,3,1
+1,0,0,8,0.852041,3,0.380952,0,17.866667,7,1
+1,0,153,9,2,0,0.37037,0,0,1,1
+2,0,0,2,0,1,0.4,1,11.2,2,1
+1,4,1757,93,0.877794,5,0.102823,0,11.967742,11,1
+1,0,282,1,0.720301,1,0.405714,0,83.472222,112,1
+2,0,3,1,0.2,0,0.611111,0,15.833333,2,1
+2,0,0,3,0.766667,6,0.211538,2,26.076923,1,1
+1,2,6,23,2,0,1,0,1.25,1,1

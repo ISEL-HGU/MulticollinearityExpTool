@@ -1,0 +1,62 @@
+@relation CM1-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R6
+
+@attribute ev(g) numeric
+@attribute l numeric
+@attribute i numeric
+@attribute t numeric
+@attribute lOCode numeric
+@attribute lOBlank numeric
+@attribute locCodeAndComment numeric
+@attribute defects {false,true}
+
+@data
+30,0.02,293.68,30751.03,45,42,0,true
+1,0.11,31.39,156.4,3,14,0,true
+1,0.1,31.51,193.01,2,8,0,true
+9,0.02,51.85,12140.27,9,51,0,true
+1,0.05,104.75,2851.38,16,32,0,true
+1,0.04,25.62,849,3,13,0,false
+1,0.16,22.46,47.77,0,6,0,false
+1,0.23,11.07,11.77,0,0,0,false
+1,0.1,160.8,921.45,1,4,0,false
+12,0.02,78.34,11529.23,53,156,0,false
+1,0.67,7.74,0.97,1,2,0,false
+7,0.02,56.02,7187.47,13,24,0,false
+9,0.01,28.41,9326.23,1,6,0,false
+1,0.09,34.26,254.83,1,0,0,false
+1,0.5,9.83,2.18,2,3,0,false
+5,0.07,38.51,434.49,12,13,0,false
+1,0.11,49.79,248.67,11,14,0,false
+1,0.05,25.24,558.17,11,25,0,false
+1,0.07,12.09,134.33,0,1,0,false
+9,0.03,84.48,6886.01,25,77,0,false
+1,0.12,26.81,96.24,4,2,0,false
+1,0.08,64.31,514.45,4,10,0,false
+5,0.06,15.76,271.16,2,6,0,false
+4,0.04,32,1211.24,4,27,0,false
+1,0.11,21.16,97.35,0,5,0,false
+4,0.1,46.9,287.24,3,7,0,false
+1,0,0,0,0,8,0,false
+8,0.04,46.31,1880.89,0,5,0,false
+5,0.04,20.08,716.01,0,5,0,false
+1,0.07,114.37,1285.77,4,39,0,false
+1,0.05,30.45,725.84,3,12,0,false
+1,0.5,9.83,2.18,0,2,0,false
+15,0.04,243.12,7136.55,20,77,0,false
+1,0.36,70.78,30.15,0,0,0,false
+1,0.2,17.19,23.88,1,3,0,false
+1,0.29,9.49,6.46,0,2,0,false
+1,0.26,57.09,47.81,0,1,0,false
+1,0.16,16.52,35.13,0,2,0,false
+1,0.04,22.84,850.88,6,9,0,false
+1,0.06,48.31,834.15,2,3,0,false
+1,0.05,46.89,931.38,1,12,0,false
+1,0.08,59.16,522.12,0,6,0,false
+1,0.5,5.8,1.29,0,0,0,false
+1,0.11,32.54,163.15,1,6,0,false
+1,0.09,17.66,110.76,4,5,0,false
+1,0.15,42.88,112.6,0,0,0,false
+1,0.11,20.27,94.64,3,1,0,false
+11,0.02,118.83,14535.59,2,10,0,false
+3,0.07,21.05,255.11,0,5,0,false
+1,0.2,20.85,28.96,0,0,0,false

@@ -1,0 +1,30 @@
+@relation log4j-1.0_deleteColumns-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R10
+
+@attribute dit numeric
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute ce numeric
+@attribute lcom3 numeric
+@attribute dam numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute avg_cc numeric
+@attribute bug {1,0}
+
+@data
+1,0,0,1,4,0,0,2,0.666667,0,32,1,0
+1,0,1,1,2,2,0,0,0.75,0,63,2.5,0
+3,0,1,1,4,2,0,0,0.75,1,6,0.5,0
+1,9,131,11,9,0.909722,0.875,5,0.210526,0,8.105263,1.4211,0
+1,0,10,0,7,0.875,0,0,0.3,0,27.6,1.4,0
+1,0,10,0,8,2,0,0,0.266667,0,100.6,1.4,0
+2,0,129,2,8,0.885965,0.105263,2,0.233083,3,33.526316,2.1579,0
+4,0,4,2,1,0.333333,0,0,0.357143,3,18.75,0.75,0
+1,0,8,0,4,0.697917,0,4,0.15,0,38.076923,2.7692,0
+2,0,0,1,1,0.916667,0.25,1,0.555556,0,9.75,1.25,0
+1,0,24,15,7,0.704545,0.25,3,0.272727,0,27.5,2.1667,1
+1,0,0,10,2,0.666667,0,0,0.090909,0,21.666667,2.25,1
+1,0,15,0,5,0.75,0,1,0.25,0,24,1,1

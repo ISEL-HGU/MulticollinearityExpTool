@@ -1,0 +1,35 @@
+@relation 'Apache2.0_golden-weka.filters.unsupervised.attribute.Remove-R1-2,63-weka.filters.unsupervised.attribute.Remove-R12,15,18-20,23-24,28,35-38,46-47,51,53-54-weka.filters.unsupervised.attribute.Remove-R31-33-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R11'
+
+@attribute AvgEssential numeric
+@attribute AvgLine numeric
+@attribute AvgLineBlank numeric
+@attribute AvgLineCode numeric
+@attribute AvgLineComment numeric
+@attribute CountLineCodeDecl numeric
+@attribute CountLineComment numeric
+@attribute CountSemicolon numeric
+@attribute MaxCyclomaticModified numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+1,33,2,26,2,57,45,232,30,0.12,TRUE
+2,42,3,29,8,289,474,666,29,0.36,TRUE
+2,42,3,29,7,311,467,713,27,0.33,TRUE
+3,45,5,33,4,260,234,640,27,0.21,TRUE
+2,27,3,15,3,55,107,86,9,0.61,TRUE
+2,25,4,18,3,59,137,92,10,0.79,TRUE
+2,27,3,21,3,246,160,414,21,0.19,TRUE
+4,54,5,40,9,443,973,1488,54,0.32,TRUE
+2,20,1,17,1,120,72,191,14,0.16,TRUE
+1,16,3,11,2,51,38,50,5,0.37,TRUE
+1,12,1,9,1,31,21,17,1,0.37,FALSE
+1,28,3,22,3,64,62,144,7,0.25,FALSE
+1,10,1,9,0,32,26,24,2,0.41,FALSE
+0,0,0,0,0,0,16,0,0,0,FALSE
+4,81,16,55,23,8,28,25,7,0.51,FALSE
+7,77,9,48,19,37,120,97,26,0.58,FALSE
+1,5,0,5,0,3,15,2,1,1.67,FALSE
+3,47,7,31,9,344,429,531,26,0.34,FALSE
+0,0,0,0,0,0,16,0,0,0,FALSE
+1,9,0,9,0,6,19,1,1,2.11,FALSE

@@ -1,0 +1,63 @@
+@relation KC2-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R3
+
+@attribute ev(g) numeric
+@attribute l numeric
+@attribute lOComment numeric
+@attribute lOBlank numeric
+@attribute lOCodeAndComment numeric
+@attribute uniq_Op numeric
+@attribute problems {no,yes}
+
+@data
+1,0.67,0,1,0,3,no
+1,0.67,0,0,0,3,no
+1,0.19,0,2,0,8,no
+1,0.67,0,0,0,3,no
+1,0.1,0,3,0,13,no
+1,0.67,0,0,0,3,no
+1,0.43,0,0,0,4,no
+1,0.14,0,1,1,8,no
+1,0.18,0,1,0,8,no
+3,0.06,10,8,2,14,no
+1,0.5,0,0,0,4,no
+1,0.67,0,0,0,3,no
+1,0,0,0,0,5,no
+1,0.67,0,0,0,3,no
+1,0.13,1,0,0,11,no
+1,0.67,0,0,0,3,no
+1,0.2,0,0,1,5,no
+1,0,0,0,0,1,no
+1,0.67,0,0,0,1,no
+1,0.15,6,4,0,11,no
+1,0.67,0,0,0,3,no
+1,0,0,0,0,1,no
+1,0.4,0,0,0,5,no
+1,0.67,0,0,0,3,no
+1,0.09,0,5,0,9,no
+1,0,2,1,0,5,no
+1,0.17,0,1,0,6,no
+1,0.67,0,0,0,3,no
+1,0.29,0,0,0,7,no
+1,0.67,0,0,0,3,no
+1,0.22,0,0,0,6,no
+1,0.67,0,0,0,3,no
+1,0.67,0,0,0,3,no
+1,0.67,0,0,0,3,no
+3,0.08,3,5,0,12,no
+1,0.67,0,0,0,3,no
+1,0.67,0,0,0,3,no
+1,0.09,0,5,0,12,no
+1,0.14,2,2,0,9,no
+1,0.13,0,1,0,12,no
+1,0.67,0,0,0,3,no
+1,0.43,0,0,0,4,no
+1,0.06,1,9,0,14,yes
+1,0.05,4,15,0,13,yes
+1,0.02,23,29,1,26,yes
+17,0.02,12,10,1,26,yes
+1,0.08,6,9,0,12,yes
+1,0.67,0,0,0,3,yes
+1,0.21,0,1,0,8,yes
+17,0.05,7,8,0,16,yes
+14,0.03,3,12,1,21,yes
+5,0.04,9,14,0,20,yes

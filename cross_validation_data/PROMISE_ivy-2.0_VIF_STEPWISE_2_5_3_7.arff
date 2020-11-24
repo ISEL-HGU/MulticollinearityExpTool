@@ -1,0 +1,50 @@
+@relation ivy-2.0_deleteColumns-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R4
+
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute lcom3 numeric
+@attribute moa numeric
+@attribute mfa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute max_cc numeric
+@attribute bug {1,0}
+
+@data
+0,3,1,0.666667,0,0.881579,0.65,1,19.3,2,0
+0,8,1,0.875,0,0.982558,0.625,2,13.8,3,0
+2,6,5,2,0,1,0.666667,0,4,0,0
+5,63,5,0.571429,1,0.87574,0.184659,12,31.045455,9,0
+0,13,0,0.722222,0,0.920354,0.466667,4,16.2,1,0
+0,1,11,2,0,0,0.75,0,0,1,0
+0,0,1,0.333333,2,0,0.5,0,7.25,3,0
+2,3,2,0.6,0,0,0.444444,0,4.666667,1,0
+0,4,3,0.25,1,0,0.5,0,28.6,5,0
+0,0,1,2,0,1,1,0,7,0,0
+0,15,10,2,0,0,1,0,0,1,0
+0,9,2,0.4,0,0.791667,0.666667,8,5.5,2,0
+0,6,22,2,0,0,0.375,0,17,2,0
+0,0,3,0.4,1,0,0.458333,0,7.833333,2,0
+0,1,4,2,0,0,0.666667,0,0,1,0
+0,0,1,0,0,1,1,0,6,0,0
+2,3,2,2,0,0.981132,1,0,52,1,0
+0,0,4,2,0,0,1,0,0,1,0
+0,1,4,2,0,0,1,0,0,1,0
+0,23,3,0.766667,0,0,0.242424,0,18,3,0
+0,11794,51,0.967014,12,0,0.062279,0,15.898089,6,0
+0,3,2,2,0,0,0.666667,0,0,1,0
+1,369,1,0.724138,0,0.804054,0.171111,2,35.433333,18,0
+0,110,2,0.09375,1,0,0.344538,0,8.588235,2,0
+0,66,0,2,0,0.938889,0.472222,1,4.583333,1,0
+0,1,7,2,0,0,0.625,0,0,1,0
+0,1,1,0,0,0,0.416667,0,70.333333,4,0
+0,78,1,2,0,0.945274,0.174825,7,31.307692,4,0
+0,0,13,2,0,1,1,0,3,0,0
+0,78,11,1.055556,1,0,0.533333,0,0.615385,1,0
+0,28,10,2,0,0,0.34375,0,0,1,0
+0,68,0,0.847619,0,0.817073,0.71875,0,9.5,1,1
+0,28,14,2,0,0,0.267857,0,0,1,1
+0,0,2,0.761905,2,0.447368,0.331169,2,73.363636,16,1
+0,28,2,1.142857,0,0.611111,0.375,3,66.875,4,1

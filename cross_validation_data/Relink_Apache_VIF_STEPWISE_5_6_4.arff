@@ -1,0 +1,33 @@
+@relation 'Apache2.0_golden-weka.filters.unsupervised.attribute.Remove-R1-2,63-weka.filters.unsupervised.attribute.Remove-R12,15,18-20,23-24,28,35-38,46-47,51,53-54-weka.filters.unsupervised.attribute.Remove-R31-33-weka.filters.unsupervised.attribute.Remove-R9-20,34-35-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R3'
+
+@attribute AvgEssential numeric
+@attribute AvgLine numeric
+@attribute AvgLineCode numeric
+@attribute AvgLineComment numeric
+@attribute CountLineCodeDecl numeric
+@attribute CountLineComment numeric
+@attribute CountSemicolon numeric
+@attribute MaxCyclomaticModified numeric
+@attribute RatioCommentToCode numeric
+@attribute isDefective {TRUE,FALSE}
+
+@data
+27,232,139,41,267,1203,1453,223,0.45,FALSE
+2,18,16,1,61,59,136,7,0.23,FALSE
+1,9,9,0,6,19,1,1,2.11,FALSE
+1,4,4,0,20,25,16,1,0.57,FALSE
+2,39,29,6,264,381,624,29,0.3,FALSE
+1,10,9,0,19,15,18,2,0.35,FALSE
+1,6,6,0,12,15,4,1,0.71,FALSE
+0,0,0,0,0,16,0,0,0,FALSE
+2,52,28,17,49,176,92,7,1.26,FALSE
+3,47,30,12,75,176,126,28,0.63,FALSE
+0,0,0,0,0,16,0,0,0,TRUE
+2,39,30,3,273,291,744,23,0.21,TRUE
+3,47,40,0,38,81,141,16,0.37,TRUE
+1,19,15,1,269,290,494,14,0.29,TRUE
+2,25,18,3,59,137,92,10,0.79,TRUE
+1,14,12,1,16,22,35,4,0.32,TRUE
+3,45,35,7,126,259,1606,19,0.28,TRUE
+3,41,31,4,254,344,479,16,0.36,TRUE
+4,54,49,1,185,65,19001,26,0.04,TRUE

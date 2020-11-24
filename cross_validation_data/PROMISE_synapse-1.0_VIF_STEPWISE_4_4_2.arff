@@ -1,0 +1,33 @@
+@relation synapse-1.0_deleteColumns-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R10-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R7
+
+@attribute dit numeric
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute ce numeric
+@attribute lcom3 numeric
+@attribute dam numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute ic numeric
+@attribute amc numeric
+@attribute max_cc numeric
+@attribute bug {1,0}
+
+@data
+1,0,0,0,0,2,0,0,1,0,3,0,0
+3,0,11,1,9,0.866667,0.666667,0,0.466667,1,32.833333,9,0
+2,0,65,3,10,0.903743,0.454545,0,0.252101,0,23.611111,7,0
+1,0,322,12,0,0.928571,1,0,0.296552,0,4.931034,1,0
+1,0,28,1,13,0.833333,0.666667,1,0.232143,0,17.666667,5,0
+1,0,28,4,0,2,0,0,1,0,0,1,0
+3,0,13,0,10,0.866667,0.333333,0,0.4,1,13,3,0
+1,0,0,3,3,0.25,1,0,0.555556,0,23.666667,4,0
+1,0,0,10,2,2,0,0,1,0,0,1,0
+1,0,9,1,14,1,0.777778,1,0.32,0,35.833333,14,0
+1,0,6,6,1,2,0,0,0.7,0,0,1,0
+1,0,24,0,21,0.885714,0.8,0,0.261905,0,28.75,2,0
+1,0,22,1,1,0.8125,1,2,0.288889,0,6.888889,4,0
+3,0,13,0,10,1.04,0.8,0,0.4,2,10.166667,1,0
+1,0,39,1,37,0.833333,0.5,0,0.190476,0,59.2,6,1
+2,0,47,2,8,0.885714,0.7,0,0.3,0,30.266667,27,1

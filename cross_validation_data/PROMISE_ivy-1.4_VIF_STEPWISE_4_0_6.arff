@@ -1,0 +1,41 @@
+@relation ivy-1.4_deleteColumns-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R9
+
+@attribute noc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute ce numeric
+@attribute lcom3 numeric
+@attribute moa numeric
+@attribute mfa numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute max_cc numeric
+@attribute avg_cc numeric
+@attribute bug {1,0}
+
+@data
+2,49,2,0,0.8,0,0.924812,0.431818,2,7.545455,2,1.0909,0
+0,190,32,6,2,0,0,0.3625,0,0,1,1,0
+0,37,4,8,0.566667,1,0,0.383333,0,30.454545,8,1.8182,0
+0,8,4,1,0.75,1,0,0.5,0,2.8,1,0.6,0
+0,88,1,0,0.719298,0,0.672414,0.166667,3,33.1,5,1.75,0
+0,6,41,0,0.59375,0,0,0.407407,1,15,4,1.3333,0
+0,739,1,14,0.940476,0,0.592233,0.372093,5,13.465116,1,0.9767,0
+0,149,0,9,0.85119,0,0.743902,0.530303,0,24,13,2.0455,0
+3,0,3,2,0.2,0,0.6,0.458333,1,11.5,7,1.6667,0
+0,4,0,0,0.666667,1,0,0.5,0,4.75,1,0.75,0
+0,86,0,8,0.857143,0,0.802632,0.359375,4,15.125,1,0.9375,0
+1,10,1,0,2,0,0.968504,0.6,1,4.6,1,0.8,0
+0,125,3,12,0.833333,0,0.772152,0.342105,1,15.842105,3,1.0526,0
+0,0,2,0,0.5,2,0,0.407407,0,6,1,0.8889,0
+0,17,7,4,0.54,0,0,0.393939,0,8.272727,2,1.1818,0
+1,79,1,1,0.807692,0,0,0.285714,0,5.5,2,1,0
+0,22,4,8,0.5,1,0.125,0.25,1,12.888889,2,1,0
+0,8,4,4,0.75,1,0,0.5,0,4.6,2,0.8,0
+0,29,12,3,0.825,3,0,0.272727,0,3.818182,1,0.9091,0
+0,3,2,0,2,0,0,0.666667,0,0,1,1,0
+3,726,4,0,0.82906,3,0,0.107813,0,11.475,6,1.5,0
+0,72,1,0,0.666667,0,0.92029,0.207692,6,28.153846,5,1.3846,0
+5,112,7,7,0.614035,1,0,0.177273,0,11.6,3,1.2,1
+0,30,3,10,0.90625,3,0.125,0.21875,1,25.444444,4,1.1111,1

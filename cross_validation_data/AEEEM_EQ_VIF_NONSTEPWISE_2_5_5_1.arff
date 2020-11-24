@@ -1,0 +1,39 @@
+@relation 'data/M_multi_metrics_EQ.csv-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R1-30,32-61'
+
+@attribute LDHH_noc numeric
+@attribute class {buggy,clean}
+
+@data
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0.001069,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,clean
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy
+0,buggy

@@ -1,0 +1,62 @@
+@relation data/M_multi_metrics_EQ.csv-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R40-weka.filters.unsupervised.attribute.Remove-R59-weka.filters.unsupervised.attribute.Remove-R50-weka.filters.unsupervised.attribute.Remove-R48-weka.filters.unsupervised.attribute.Remove-R55-weka.filters.unsupervised.attribute.Remove-R40-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.Remove-R33-weka.filters.unsupervised.attribute.Remove-R22-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R35-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R23-weka.filters.unsupervised.attribute.Remove-R42-weka.filters.unsupervised.attribute.Remove-R39-weka.filters.unsupervised.attribute.Remove-R29-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Remove-R41-weka.filters.unsupervised.attribute.Remove-R30-weka.filters.unsupervised.attribute.Remove-R30-weka.filters.unsupervised.attribute.Remove-R15-weka.filters.unsupervised.attribute.Remove-R28-weka.filters.unsupervised.attribute.Remove-R19-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R28-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R22-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R12-weka.filters.unsupervised.attribute.Remove-R21-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R2
+
+@attribute LDHH_fanIn numeric
+@attribute LDHH_numberOfPublicMethods numeric
+@attribute LDHH_numberOfPrivateAttributes numeric
+@attribute LDHH_numberOfPublicAttributes numeric
+@attribute WCHU_numberOfPrivateMethods numeric
+@attribute ck_oo_numberOfPublicAttributes numeric
+@attribute ck_oo_noc numeric
+@attribute numberOfCriticalBugsFoundUntil: numeric
+@attribute WCHU_noc numeric
+@attribute LDHH_numberOfAttributesInherited numeric
+@attribute ck_oo_numberOfAttributesInherited numeric
+@attribute ck_oo_dit numeric
+@attribute ck_oo_fanIn numeric
+@attribute LDHH_noc numeric
+@attribute WCHU_dit numeric
+@attribute WCHU_numberOfAttributesInherited numeric
+@attribute numberOfHighPriorityBugsFoundUntil: numeric
+@attribute ck_oo_numberOfPrivateAttributes numeric
+@attribute LDHH_dit numeric
+@attribute LDHH_fanOut numeric
+@attribute LDHH_numberOfMethodsInherited numeric
+@attribute ck_oo_numberOfMethodsInherited numeric
+@attribute ck_oo_numberOfPublicMethods numeric
+@attribute CvsExpEntropy numeric
+@attribute class {buggy,clean}
+
+@data
+0,0,0,0,0,2,0,0,0,0,0,1,7,0,0,0,0,2,0,0,0,7,17,0.001232,clean
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8,1,0,clean
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,7,0,0,clean
+0,0,0.000783,0,0,1,0,0,0,0,0,1,2,0,0,0,0,23,0,0.009052,0.001486,9,6,0.056803,clean
+0,0,0,0,0,0,0,0,0,0,3,2,1,0,0,0,0,0,0,0.002039,0.003052,20,7,0.004293,clean
+0.007987,0.007725,0.019631,0,0,0,0,0,0,0,0,2,3,0,0,0,0,14,0,0.008318,0.001026,11,5,0.215324,clean
+0,0,0,0,1.02,0,0,1,0,0,2,1,1,0,0,0,0,0,0,0.004292,0.001486,13,4,0.000428,clean
+0.006744,0,0,0,0,1,0,0,0,0,0,1,7,0,0,0,0,4,0,0,0,14,8,0.064115,clean
+0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0.001486,8,2,0.000804,clean
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,9,2,0,clean
+0.009143,0,0.001953,0.00026,2.03,0,6,0,2.06,0,0,1,11,0,0,0,0,4,0,0.003117,0.001486,7,2,0.125841,clean
+0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,7,2,0,clean
+0,0.000613,0.001229,0.001024,1.01,0,0,0,0,0,0,1,2,0,0,0,0,4,0,0.003548,0.002067,12,6,0.055093,clean
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8,1,0,clean
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,7,0,0,clean
+0,0.003504,0.002378,0,2.04,0,0,0,0,0,0,1,1,0,0,0,0,3,0,0.018293,0.001486,8,6,0.092359,clean
+0.00805,0,0,0.000999,0,16,0,0,0,0,0,1,15,0,0,0,0,0,0,0.003051,0.001486,7,3,0.002074,clean
+0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,7,1,0,clean
+0,0,0,0,0,0,0,0,0,0,2,1,2,0,0,0,0,0,0,0,0.001486,13,10,0.001198,clean
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8,1,0,clean
+0,0,0,0,0,0,0,0,0,0,0,3,4,0,0,0,0,2,0,0.000925,0.002338,45,5,0.054915,buggy
+0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,4,0,0,0,45,5,0.088304,buggy
+0,0.000219,0.000396,0.000276,1.01,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0.000396,0.001702,7,1,0.00163,buggy
+0.015282,0.001845,0.009332,0.001775,6.15,3,1,2,0,0,0,1,13,0,0,0,1,23,0,0.02221,0.002338,11,6,0.136933,buggy
+0,0,0.002712,0,1.06,0,0,2,0,0,29,2,0,0,0,4.06,0,6,0,0.008318,0,24,2,0.117569,buggy
+0.001019,0.00115,0.001935,0,1.01,0,0,1,0,0.000814,3,2,2,0,1.01,1.03,0,4,0.000287,0.00452,0.002251,24,5,0.004969,buggy
+0.002273,0,0.002566,0,0,0,2,0,0,0,0,1,1,0,0,0,0,1,0,0.003498,0.003262,17,2,0.009488,buggy
+0.000375,0,0,0,0,0,0,0,0,0,0,1,4,0,0,0,0,2,0,0,0.002594,15,3,0.00528,buggy
+0.001617,0,0.008751,0.000697,16.3,7,0,4,0,0,0,1,5,0,0,0,0,25,0,0.032836,0.001835,17,11,0.221266,buggy
+0.001595,0.003295,0,0,0,0,0,2,0,0,0,2,9,0,0,0,0,9,0,0.007983,0,30,34,0.112682,buggy
+0,0.000475,0,0.000407,0,3,0,0,0,0.003837,2,3,1,0,0,2.02,0,1,0,0.001367,0.002164,29,5,0.021918,buggy
+0,0.000876,0,0,0,1,0,0,0,0,1,2,1,0,0,0,0,0,0,0.001998,0.003017,22,4,0.004421,buggy
+0,0,0.000628,0,0,0,0,0,0,0,0,1,1,0,0,0,0,6,0,0,0.002379,33,5,0.00528,buggy

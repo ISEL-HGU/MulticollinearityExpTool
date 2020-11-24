@@ -1,0 +1,52 @@
+@relation 'data/M_multi_metrics_EQ.csv-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R1-2,4,6-11,13-15,18-21,24-26,28,30,33,35-43,45-47,49-55,57-61'
+
+@attribute LDHH_fanIn numeric
+@attribute WCHU_numberOfPublicAttributes numeric
+@attribute LDHH_numberOfPublicAttributes numeric
+@attribute ck_oo_noc numeric
+@attribute numberOfCriticalBugsFoundUntil: numeric
+@attribute WCHU_noc numeric
+@attribute LDHH_numberOfAttributesInherited numeric
+@attribute ck_oo_numberOfAttributesInherited numeric
+@attribute ck_oo_dit numeric
+@attribute LDHH_noc numeric
+@attribute WCHU_dit numeric
+@attribute WCHU_numberOfAttributesInherited numeric
+@attribute numberOfHighPriorityBugsFoundUntil: numeric
+@attribute LDHH_dit numeric
+@attribute ck_oo_numberOfMethodsInherited numeric
+@attribute class {buggy,clean}
+
+@data
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,26,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,1.03,0.001024,0,0,0,0,0,2,0,1.01,0,0,0,20,clean
+0.002028,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,16,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,clean
+0.001019,1.03,0.000221,0,0,0,0.000814,1,1,0,0,1.01,0,0,13,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,clean
+0,0,0,0,1,0,0,0,1,0,0,0,0,0,9,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,clean
+0,1.01,0,0,0,0,0,0,1,0,0,0,0,0,8,clean
+0,0,0,0,1,0,0,0,1,0,0,0,0,0,15,clean
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,17,clean
+0.017886,0,0,1,0,0,0.003413,5,1,0,0,1.01,0,0,33,buggy
+0.005568,0,0,0,1,0,0,0,1,0,0,0,0,0,12,buggy
+0.010867,0,0,1,0,1.01,0,0,1,0,0,0,0,0,7,buggy
+0.001308,0,0,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0,1.01,0.000407,0,0,0,0.003837,2,3,0,0,2.02,0,0,29,buggy
+0.001019,0,0,0,1,0,0.000814,3,2,0,1.01,1.03,0,0.000287,24,buggy
+0.015282,5.25,0.001775,1,2,0,0,0,1,0,0,0,1,0,11,buggy
+0,0,0,0,0,0,0.014114,28,1,0,0,1.01,0,0,7,buggy
+0,7.74,0.008735,0,0,0,0.003652,3,2,0,1.01,3.05,0,0.000364,12,buggy
+0.002325,0,0,0,2,1.01,0,0,1,0,0,0,2,0,7,buggy
+0,1.01,0.000276,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0.002555,0,0,0,0,0,0,0,1,0,0,0,0,0,7,buggy
+0.001337,0,0,0,0,0,0,0,2,0,0,0,0,0,22,buggy
