@@ -1,0 +1,56 @@
+usage: EJTool -c <csv file location> -d <data unbalancing mode> [-e
+       <MultiSearch Evaluation option>] -f <the number of cross-validation
+       folds> [-h] -i <number of cross-validation iterations> -m <machine
+       learning model> -o <path> -p <thread pool size> -s <file> -t
+       <attribute value> [-u <parameter tuning option>] [-v <flag of
+       parameter tuning>]
+Multicollineaity paper experiment tool
+ -c,--csv <csv file location>                        file path of output
+                                                     to output file.
+ -d,--dataUnbalancingMode <data unbalancing mode>    1 is noHandling data
+                                                     unbalance or 2 is
+                                                     applying spread
+                                                     subsampling or 3 is
+                                                     applying smote
+ -e,--evaluation <MultiSearch Evaluation option>     1 is AUC or 2 is
+                                                     Fmeasure or 3 is MCC
+                                                     or 4 is Precision or
+                                                     5 is Recall
+ -f,--fold <the number of cross-validation folds>    the number of
+                                                     cross-validation
+                                                     folds
+ -h,--help                                           Help
+ -i,--iter <number of cross-validation iterations>   number of
+                                                     cross-validation
+                                                     iterations
+ -m,--model <machine learning model>                 machine learning
+                                                     model
+ -o,--originaldata <path>                            path to original data
+                                                     before creating
+                                                     cross-validation data
+ -p,--pool <thread pool size>                        thread pool size
+ -s,--source <file>                                  source arff file path
+                                                     to train a prediction
+                                                     model
+ -t,--type <attribute value>                         1 is a original
+                                                     dataset or applying
+                                                     PCA or VIF to remove
+                                                     multicollinearity or
+                                                     2 is applying
+                                                     Correlation-based
+                                                     feature selection or
+                                                     3 is applying
+                                                     Wrapper-based feature
+                                                     selection or 4 is
+                                                     applying Variable
+                                                     clustering and
+                                                     removing redundant
+                                                     metrics.
+ -u,--tuning <parameter tuning option>               parameter tuning
+                                                     option. 1 is
+                                                     GridSearch or 2 is
+                                                     CVParameterSelection
+                                                     or 3 is MultiSearch
+ -v,--tuningflag <flag of parameter tuning>          true or false
+
+Please report issues at https://github.com/HGUISEL/EJTool/issues
